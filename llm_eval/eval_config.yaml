@@ -1,0 +1,5 @@
+eval-data-path: data/prompts_responses_finetuned.csv
+
+prompt-col: prompt
+lmodel-response-col: response
+rmodel-response-col: dfl_response
