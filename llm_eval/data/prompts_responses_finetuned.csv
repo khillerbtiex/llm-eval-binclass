@@ -1,0 +1,880 @@
+prompt,real,response,dfl_response
+mom's plain sugar cookies,"baking powder, egg, flour, milk, salt, shortening, sugar, vanilla","eggs, flour, powdered sugar, sugar, vanilla extract","[INST] What are the ingredients used to create mom's plain sugar cookies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Sugar, Unsalted Butter, Egg, Vanilla Extract, Baking Powder, Salt, Milk (optional)"
+pineapple wonder,"butter, crackers, flour, grated cheese, pineapple, pineapple juice, sugar","baking soda, eggs, flour, pineapple, sugar, vanilla extract","[INST] What are the ingredients used to create pineapple wonder?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pineapple, Sugar, Water, Citric Acid, Natural Flavors, Red 40, Blue 1. May contain occasional pieces of pineapple skin."
+strawberry freezer spread,"Sugar Twin, cold water, lemon juice, powdered fruit pectin, salt, unflavored gelatin","frozen strawberry, sugar","[INST] What are the ingredients used to create strawberry freezer spread?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] strawberries, sugar, heavy cream, milk, lemon juice.
+
+Note: The amount of each ingredient may vary depending on the recipe. Here's an approximate ratio as a guideline: 2 pounds strawberries, 1 1/2 cups sugar, 1 cup heavy cream, 1/2 cup milk, 1 tablespoon lemon juice."
+yam spice muffins,"baking powder, cinnamon, flour, nutmeg, potatoes, raisins, salt, sugar, water","baking powder, cinnamon, egg, flour, nuts, soda, sugar, yam","[INST] What are the ingredients used to create yam spice muffins?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 2 1/2 cups all-purpose flour, 1 1/2 teaspoons baking soda, 1 1/2 teaspoons ground cinnamon, 1 teaspoon ground nutmeg, 1 teaspoon ground ginger, 1/2 teaspoon ground cloves, 1/2 teaspoon salt, 1 1/2 cups cooked and mashed yams, 1 1/2 cups granulated sugar, 2 eggs, 1 1/2 sticks unsalted butter, melted, 1/2 cup buttermilk, 1 teaspoon vanilla extract, 1/2 cup raisins (optional), 1/2 cup chopped walnuts (optional)"
+cracked chocolate cookies,"baking soda, brown sugar, cocoa, eggs, flour, powdered sugar, salt, semi-sweet chocolate chips, vanilla, vegetable shortening, water","baking soda, cocoa powder, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create cracked chocolate cookies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Unsalted butter, Granulated sugar, Brown sugar, Egg, Vanilla extract, Baking soda, Salt, Crushed pretzels, Chocolate chips, Cracked pecans."
+espresso torte,"butter, coffee, coffee powder, eggs, graham crackers, heavy cream, nuts, sugar, sugar, water","cocoa powder, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create espresso torte?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Espresso torte ingredients:
+
+1. 1 1/2 cups all-purpose flour, plus more for dusting
+2. 1/2 cup unsweetened cocoa powder
+3. 1 1/2 teaspoons baking powder
+4. 1 teaspoon salt
+5. 1/2 cup (1 stick) unsalted butter, room temperature
+6. 1 1/2 cups granulated sugar, divided
+7. 4 large eggs, room temperature
+8. 1 teaspoon vanilla extract
+9. 1/2 cup whole milk
+10. 1/2 cup strong brewed espresso or coffee
+11. 1 teaspoon instant espresso or coffee granules
+12. 1/2 cup semi-sweet chocolate chips
+13. 1/3 cup heavy cream
+14. 1/2 teaspoon es"
+butterscotch fudge,"butterscotch morsels, marshmallow cream, milk, oleo, pecans, sugar, vanilla","brown sugar, milk, pecans, sugar, vanilla extract","[INST] What are the ingredients used to create butterscotch fudge?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] sugar, heavy cream, butter, corn syrup, vanilla extract, salt, milk chocolate chips, marshmallow creme"
+daintie meringue cakes,"baking powder, brown sugar, butter, egg, egg whites, flour, salt, semi-sweet chocolate bits, sugar, walnuts","egg white, sugar, vanilla extract","[INST] What are the ingredients used to create daintie meringue cakes?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Egg whites, caster sugar, cornflour, icing sugar."
+delight salad,"cream cheese, fruit cocktail, jello, whipping cream","coconut, marshmallows, pecans, pineapple, sugar","[INST] What are the ingredients used to create delight salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] lettuce, tomatoes, cucumbers, red onion, feta cheese, olives, red wine vinegar, olive oil, salt, pepper, red pepper flakes, shallots, garlic."
+cobbler (any kind),"butter, flour, milk, sugar","flour, milk, sugar","[INST] What are the ingredients used to create cobbler (any kind)?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Fruit (e.g., peaches, apples, berries), Sugar, All-purpose flour, Butter, Milk, Lemon juice (optional), Cinnamon (optional), Nutmeg (optional), Ginger (optional)
+
+For biscuit topping:
+Flour, Baking powder, Salt, Sugar, Butter, Milk"
+holiday date-brandy sauce,"brandy, brown sugar, dates, pecans, water","brandy, dates, sugar, water","[INST] What are the ingredients used to create holiday date-brandy sauce?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Date-brandy sauce:
+
+dates, pitted, 1 lb,
+butter, 1/2 cup,
+brown sugar, 1 cup,
+brandy, 1 cup,
+heavy cream, 1 cup,
+salt, 1/4 tsp,
+nutmeg, 1/4 tsp,
+ground cloves, 1/4 tsp"
+christmas tortilla roll-up,"celery, cream cheese, flour tortillas, green olives, green onion, red pepper","cheddar cheese, flour tortilla, green onions, sour cream","[INST] What are the ingredients used to create christmas tortilla roll-up?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour tortillas, deli turkey, cranberry sauce, honey mustard, cheeses (Cheddar, Monterey Jack), lettuce, red onion, avocado, bacon, maple syrup."
+quick italian supper,"Mozzarella cheese, basil, clove garlic, ground beef, onions, oregano, refrigerator biscuits, salt, tomato paste, tomatoes","ground beef, mozzarella cheese, mushrooms, onion, parmesan cheese, spaghetti sauce","[INST] What are the ingredients used to create quick italian supper?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] olives, cherry tomatoes, mozzarella cheese, basil, garlic, olive oil, pasta, salt, pepper."
+pa. stroganoff and noodles,"beef, flour, garlic, hamburger, mushrooms, oleo, parsley, pepper, salt, sour cream, tomato paste, vinegar","flour, ground beef, mushrooms, onion soup mix, pepper, sour cream, water","[INST] What are the ingredients used to create pa. stroganoff and noodles?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] For Poultry Stroganoff:
+
+1. 1 lb boneless, skinless chicken or turkey, sliced
+2. 1 lb egg noodles
+3. 1/2 cup sour cream
+4. 1/2 cup mayonnaise
+5. 1 can condensed cream of mushroom soup
+6. 1 can condensed cream of chicken soup
+7. 1 cup sliced mushrooms
+8. 1/2 cup sliced onions
+9. 1/2 cup sliced bell peppers (optional)
+10. 1/4 cup ketchup
+11. 1 tbsp Worcestershire sauce
+12. Salt and pepper to taste
+13. 2 tbsp butter
+14. 2 tbsp vegetable oil
+
+For Noodles:
+
+1. 1 lb egg noodles
+2. Salt to taste"
+ham and cheese layered casserole,"Italian bread, eggs, garlic powder, ham, milk, mozzarella cheese, pepper","bread, cheddar cheese, eggs, ham","[INST] What are the ingredients used to create ham and cheese layered casserole?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Ham, Cheese, Biscuits (canned, sliced), Milk, Butter, Onion (chopped), Green Pepper (chopped), Cheddar Cheese (shredded), Sour Cream, SALT, Pepper, Worcestershire Sauce, Paprika."
+prize winning burrito,"Bisquick baking mix, Cheddar cheese, beans, ground beef, taco salsa, water","cheddar cheese, ground beef, onion, sour cream, taco sauce, tomatoes","[INST] What are the ingredients used to create prize winning burrito?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour tortilla, Cooked pinto beans, Cooked black beans, Cooked rice, Grilled chicken, Grilled steak, Cheese, Sour cream, Salsa, Guacamole, Lettuce, Tomatoes, Onions, Cilantro, Salt, Chili powder, Cumin."
+quiche for one,"Swiss cheese, bacon bits, chives, egg, margarine, milk, mushrooms, nutmeg, pepper, salt","cheddar cheese, egg, flour, milk, mushrooms, onion","[INST] What are the ingredients used to create quiche for one?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 1 pie crust (pre-baked)
+
+2. 1/4 cup milk
+3. 1/4 cup heavy cream
+4. 1/4 cup grated cheese (cheddar or Swiss)
+5. 1/4 cup chopped vegetables (bell peppers, onions, mushrooms)
+6. 1/4 cup cooked meats (bacon, ham, sausage)
+7. 2 eggs
+8. Salt, to taste
+9. Pepper, to taste
+10. Optional: spices (nutmeg, thyme, paprika)"
+grandmom's cornbread,"eggs, flour, margarine, milk, salt, sugar, water, white corn","baking powder, buttermilk, cornmeal, egg, flour, soda, sugar","[INST] What are the ingredients used to create grandmom's cornbread?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] cornmeal, all-purpose flour, baking powder, salt, eggs, milk, honey or sugar, vegetable oil or shortening, baking soda (optional)"
+alex's chocolate chunk cookies,"baking soda, brown sugar, butter, chocolate chunks, egg, flour, salt, sugar, vanilla","baking soda, chocolate chunk, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create alex's chocolate chunk cookies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Baking Soda, Salt, Butter, White Sugar, Brown Sugar, Eggs, Vanilla Extract, Chocolate Chunks"
+alvin's shrimp and onion bath,"bell pepper, celery, clove garlic, onions, salt, shrimp","onion, shrimps","[INST] What are the ingredients used to create alvin's shrimp and onion bath?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] shrimp, onion, water, soy sauce, ginger, garlic, oil, sugar, cornstarch, rice vinegar, sesame oil."
+danish puffs,"almond extract, boiling water, cold water, confectioners sugar, cream, eggs, flour, oleo, salt, vanilla","butter, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create danish puffs?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pastry dough:
+
+1. All-purpose flour, 2 1/2 cups
+2. Granulated sugar, 1 tablespoon
+3. Salt, 1/2 teaspoon
+4. Unsalted butter, 1/2 cup, cold and cubed
+5. Water, 1/2 cup, cold
+6. Egg, 1, beaten
+
+Filling:
+
+1. Milk, 1 cup
+2. Cornstarch, 1/4 cup
+3. Granulated sugar, 3/4 cup
+4. Salt, 1/4 teaspoon
+5. Unsalted butter, 1/4 cup
+6. Vanilla extract, 1 teaspoon
+7. Heavy cream, 1/2 cup
+
+Egg wash:
+
+1. Egg, 1, beaten
+
+Optional toppings:
+
+1. Pow"
+oregano garlic potatoes,"Salt, garlic, olive oil, oregano, potatoes","garlic powder, oregano, potatoes","[INST] What are the ingredients used to create oregano garlic potatoes?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Potatoes, Garlic, Olive oil, Oregano, Salt."
+"red, white and blue salad","blueberry pie filling, cream cheese, pecans, raspberry jello, sugar, unflavored gelatin, vanilla","marshmallows, pineapple, sugar, watermelon","[INST] What are the ingredients used to create red, white and blue salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Red: strawberries, raspberries, cherry tomatoes
+
+White: red onion, cubed or sliced white bread (preferably day old), crumbled feta cheese
+
+Blue: blueberries, crumbled gorgonzola or other blue cheese
+
+Dressing: balsamic vinegar, olive oil, honey, salt, pepper, optional: poppy seeds or sesame seeds for garnish"
+holiday soda bread,"baking powder, baking soda, butter, buttermilk, eggs, flour, salt, sugar, white raisins","baking powder, buttermilk, eggs, flour, raisins, soda, sugar","[INST] What are the ingredients used to create holiday soda bread?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Baking soda, Salt, Sugar, Buttermilk, Caraway seeds, raisins (optional)"
+cheese and italian sausage pie,"Cheddar cheese, Swiss cheese, Worcestershire sauce, eggs, hot Italian sausage, milk, onion, pie shell","egg, italian sausage, mozzarella cheese, mushrooms, onion, parmesan cheese","[INST] What are the ingredients used to create cheese and italian sausage pie?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pizza dough, italian sausage, cheese (mozzarella, provolone, parmesan), olive oil, garlic, onion, bell pepper, garlic powder, paprika, oregano, salt, pepper, red pepper flakes, tomato sauce, dried basil, dried oregano."
+"potato salad, sweet and sour","black pepper, catsup, celery, cider vinegar, green onion, mayonnaise, red-skinned potatoes, salt, sugar","celery, eggs, mayonnaise, onion, potatoes, sugar, vinegar","[INST] What are the ingredients used to create potato salad, sweet and sour?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Potatoes, Mayonnaise, Vinegar, Sugar, Water, Salt, Onion, Red Bell Pepper, Green Bell Pepper, Celery, Carrots, Apple Cider Vinegar, Ketchup, Soy Sauce, Corn Syrup, Garlic, Ginger."
+boiled macaroni with cheese,"butter, either cream, macaroni, salt, tomato soup, water","butter, macaroni","[INST] What are the ingredients used to create boiled macaroni with cheese?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] macaroni, milk, butter, cheese (cheddar or a mix of cheeses), flour, breadcrumbs, salt, pepper, paprika (optional)"
+whoopie pie cake,"Crisco oil, cake mix, chocolate pudding, eggs, water","cakes, vanilla frosting","[INST] What are the ingredients used to create whoopie pie cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, sugar, baking powder, baking soda, salt, milk, vegetable oil, eggs, vanilla extract, shortening, marshmallow creme, milk (for frosting), additional flour (for work surface)"
+tomatoes,"cinnamon, lemon jello, sugar, tomatoes",tomato juice,"[INST] What are the ingredients used to create tomatoes?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Tomatoes are not created through a culinary process using specific ingredients. They are naturally grown plants that produce fruit. Ingredients for growing tomatoes from seeds:
+
+Seeds, Soil, Water, Sunlight, Fertilizer (optional), Stakes or cages (optional)"
+potato puff balls,"eggs, flour, mashed sweet potatoes, milk, salt, shortening, sugar, yeast","eggs, flour, margarine, potatoes","[INST] What are the ingredients used to create potato puff balls?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Potatoes, All-purpose flour, Eggs, Milk, Baking powder, Salt, Paprika, Vegetable oil."
+bill's chicken dinner,"bacon, beef, chicken breast, mushroom soup, rice, sour cream","cream chicken soup, mushroom soup, onion, rice, sour cream","[INST] What are the ingredients used to create bill's chicken dinner?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chicken, Salt, Pepper, Garlic Powder, Paprika, Onion Powder, Brown Sugar, Corn Syrup, Water, Vinegar, Lemon Juice, Worcestershire Sauce, Vegetable Oil."
+lamb dijon,"clove garlic, fresh rosemary, ginger, lamb, mustard, olive oil, soy sauce","dijon mustard, lamb chops","[INST] What are the ingredients used to create lamb dijon?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Lamb, Dijon mustard, garlic, olive oil, rosemary, thyme, salt, pepper, red wine vinegar"
+strawberry dip (for fruit),"sour cream, strawberry jam","sour cream, sugar","[INST] What are the ingredients used to create strawberry dip (for fruit)?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] strawberries, cream cheese, powdered sugar, vanilla extract, strawberries (for garnish)"
+orzo with lemon and herb,"fresh herbs, ground black pepper, lemon juice, orzo, salt, vegetable stock","lemon juice, mint leaf, olive oil, orzo pasta, parsley","[INST] What are the ingredients used to create orzo with lemon and herb?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] orzo pasta, water, olive oil, lemon zest, juice of 1-2 lemons, salt, garlic, parsley, basil, chives, Parmesan cheese."
+m.k.c.'s creamed mushroom chicken breasts,"Parmesan cheese, chicken breasts, chicken broth, flour, fresh carrot, green onions, mushrooms, red bell pepper, salt, shortening, whipping cream, white pepper, yellow onion","chicken breasts, cream cheese, cream mushroom soup","[INST] What are the ingredients used to create m.k.c.'s creamed mushroom chicken breasts?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chicken breasts, mushrooms, heavy cream, garlic, thyme, salt, pepper, butter."
+sheet coconut cake,"cake, coconut, condensed milk, cream of coconut, sour cream, sugar","coconut, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create sheet coconut cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 3 1/2 cups all-purpose flour, sifted
+- 1 1/3 cups unsweetened shredded coconut, toasted
+- 2 cups granulated sugar
+- 1 cup unsalted butter, room temperature
+- 1 1/2 cups buttermilk, room temperature
+- 4 large eggs, room temperature
+- 1 1/2 teaspoons baking powder
+- 1 teaspoon baking soda
+- 1 teaspoon salt
+- 1 teaspoon coconut extract
+- 1 1/2 teaspoons vanilla extract
+- 1 1/2 cups flaked coconut, for topping
+
+For the frosting:
+- 2 1/2 cups unsalted butter, room temperature
+- 7 1/2 cups powdered sugar, sifted
+- 1"
+fannie wilson's mahogany cake,"baking powder, cinnamon, cocoa, confectioners sugar, egg whites, egg yolk, egg yolks, flour, milk, oleo, oleo, salt, sugar, vanilla, vanilla","baking soda, cinnamon, eggs, flour, margarine, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create fannie wilson's mahogany cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Sugar, Eggs, Vegetable Oil, Unsweetened Cocoa, Baking Powder, Baking Soda, Salt, Vanilla Extract, Boiling Water, Instant Coffee, Milk."
+sweet potato casserole delight,"butter, eggs, milk, potatoes, salt, sugar, vanilla","brown sugar, eggs, flour, milk, pecans, sweet potatoes","[INST] What are the ingredients used to create sweet potato casserole delight?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] sweet potatoes, brown sugar, milk, eggs, vanilla extract, cinnamon, nutmeg, ginger, butter, flour, marshmallows, salt."
+-- cheese straws,"all-purpose, margarine, red pepper, sharp cheese","cheddar cheese, egg yolk, flour","[INST] What are the ingredients used to create -- cheese straws?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Butter, Cheese (Cheddar or Parmesan), Salt, Paprika, Cayenne Pepper (optional)"
+tuna biscuit ring,"Cheddar cheese, Cheese Sauce, biscuit dough, celery salt, egg, onion, parsley, tuna","celery, mayonnaise, onion, tuna fish","[INST] What are the ingredients used to create tuna biscuit ring?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] tuna, biscuits, mayonnaise, hard-boiled eggs, onion, celery, relish, paprika, salt, pepper, butter."
+lee's favorite brownies,"baking soda, butter, chocolate, eggs, flour, salt, sugar, vanilla extract, water","cocoa, eggs, flour, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create lee's favorite brownies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Sugar, Cocoa Powder, Unsweetened, Eggs, Butter, Vanilla Extract, Chocolate Chips, Salt."
+peanut butter clusters,"corn flakes, peanut butter, white sugar, white syrup","peanut butter, peanuts","[INST] What are the ingredients used to create peanut butter clusters?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Peanut butter, Chocolate (chips or coating), Corn Syrup, Granulated Sugar, Vanilla Extract, Salt (optional), Peanuts (optional)"
+crock-pot fajitos,"chili powder, cilantro, flank steak, flour tortillas, garlic, green pepper, ground coriander, ground cumin, jalapeno pepper, onion, red pepper, salt","chicken breast, chili powder, cumin, garlic salt, onion powder, pepper","[INST] What are the ingredients used to create crock-pot fajitos?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Skirt steak, bell peppers, onion, fajita seasoning, garlic cloves, olive oil, lime juice, lime, flour tortillas, sour cream, salsa, guacamole, cilantro, salt, pepper."
+erin's heavenly salad,"bananas, green seedless grapes, mandarin oranges, marshmallows, pineapple, sour cream","coconut, marshmallows, pecans, sugar","[INST] What are the ingredients used to create erin's heavenly salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Romaine lettuce, Grilled chicken, Avocado, Cherry tomatoes, Red onion, Cucumber, Feta cheese, Balsamic vinaigrette, Olive oil, Salt, Pepper."
+super egg bake,"dried mustard, eggs, milk, picante, salt, sausage, sharp cheese, white bread","cheddar cheese, eggs, milk, mushrooms, onion","[INST] What are the ingredients used to create super egg bake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] eggs, milk, salt, pepper, butter, shredded cheese, diced vegetables (such as bell peppers, onions, and spinach), cooked crumbled sausage or bacon, bread cubes or crushed crackers."
+halloween party mix( cups)  ,"baking soda, butter, candy corn, light corn syrup, peanut butter, peanuts, pretzels, sugar, vanilla extract","candy corn, peanut, pretzels","[INST] What are the ingredients used to create halloween party mix( cups)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chex cereal, peanuts, pretzels, M&M's, peanut M&M's, cheese puffs, popcorn, marshmallows, chocolate chips."
+hot german potato salad(microwave time  to  minutes)  ,"bacon, celery, cider vinegar, flour, fresh parsley, mustard, new potatoes, onion, pepper, salt, stalk celery, sugar, water, water","bacon, celery, flour, onion, paprika, pepper, potatoes, salt, sugar, vinegar, water","[INST] What are the ingredients used to create hot german potato salad(microwave time  to  minutes)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Potatoes, Water, Vinegar, Salt, Sugar, Celery Seeds, Onion, Bacon, Mayonnaise"
+easy kraut casserole,"Cheddar cheese, cream of mushroom soup, egg noodles, mushrooms, sausage, shredded kraut","cheddar cheese, eggs, kraut, onion soup mix, sour cream","[INST] What are the ingredients used to create easy kraut casserole?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Sabra sauerkraut, 1 lb ground beef, 1 onion (chopped), 1 green bell pepper (chopped), 1 red bell pepper (chopped), 1 can tomato sauce (15 oz), 1 can kidney beans (15 oz, drained), 1 can corn (15 oz, drained), 1 can black beans (15 oz, drained), 1 tbsp chili powder, 1 tbsp cumin, 1 tbsp paprika, 1 tbsp garlic powder, 1 tbsp onion powder, 1 tbsp salt, 1 tbsp pepper, 1 cup shredded cheddar cheese."
+my sister's supreme beef casserole,"Cheddar cheese, cream cheese, egg noodles, garlic powder, ground beef, onion, salt, sour cream, sugar, tomato sauce, tomatoes","carrot, celery, onion soup mix, potatoes, tomato paste, water","[INST] What are the ingredients used to create my sister's supreme beef casserole?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 2 lbs supreme beef, cut into pieces, 1 onion, chopped, 3 carrots, sliced, 3 parsnips, sliced, 4 potatoes, cut into large chunks, 1 cup green peas, 1 cup sliced mushrooms, 1 cup red wine, 4 cups beef broth, 2 tbsp tomato paste, 2 tbsp flour, 1 tbsp olive oil, salt, pepper, 2 tbsp parsley, chopped, 2 tbsp thyme, chopped."
+nut crunch candy,"butter, chocolate, nuts, sugar","butter, pecans, sugar, vanilla extract","[INST] What are the ingredients used to create nut crunch candy?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Nuts (almonds, peanuts, or cashews), Corn syrup, Sugar, Water, Salt, Baking soda, Vanilla extract."
+western snapper,"butter, cayenne, chili powder, corn meal, flour, lemon juice, lemon slices, oregano, red snapper, salt","butter, garlic powder, lemon juice, onion, paprika, parsley flakes, pepper","[INST] What are the ingredients used to create western snapper?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] No ingredient called ""Western snapper"" exists. You may be referring to a specific fish dish made with Western Snapper (also known as Pacific Bluefin Tuna or Thunnus orientalis). Here are the possible ingredients for a raw or sushi-grade Western Snapper preparation:
+
+- Western Snapper (Pacific Bluefin Tuna)
+- Soy Sauce
+- Wasabi (optional)
+- Pickled Ginger (optional)
+- Rice (for sushi rolls)
+- Nori (for sushi rolls)
+- Vegetables (optional, for sushi rolls)
+- Sesame Seeds (optional, for garnish)
+
+These ingredients are common for preparing sushi or sashimi dishes with Western Snapper. However, other seasonings, sauces, or accompaniments may be used depending on personal preferences or regional variations."
+sauerkraut-peanut cake,"baking powder, cocoa, drained kraut, eggs, flour, salt, shortening, soda, sugar, vanilla, water","eggs, flour, margarine, pecans, sugar, vanilla extract","[INST] What are the ingredients used to create sauerkraut-peanut cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] I'm sorry for the misunderstanding, but there seems to be a mistake in the question. Sauerkraut and peanut cake are two distinct dishes. Sauerkraut is a fermented dish made from cabbage, while peanut cake is a traditional Chinese dessert made from ground peanuts, glutinous rice, and sugar.
+
+Here are the ingredients for each dish:
+
+Sauerkraut:
+cabbage, salt
+
+Peanut Cake:
+glutinous rice, peanuts, sugar, water."
+mandarin orange fruit salad,"boiling water, grated cheese, lemon gelatin, mandarin oranges, mayonnaise, orange gelatin, pineapple","mandarin oranges, pineapple, sugar","[INST] What are the ingredients used to create mandarin orange fruit salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] mandarin oranges, pineapple, grapes, kiwi, coconut, cherry, blueberries, strawberries, orange juice, lemon juice, honey."
+graham gems or muffins,"butter, eggs, graham flour, salt, soda, sour milk, sugar, white flour","baking soda, butter, cinnamon, eggs, flour, milk, nuts, raisins, sugar, vanilla extract","[INST] What are the ingredients used to create graham gems or muffins?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Graham cracker crumbs, sugar, butter, eggs, milk, flour, baking powder, cinnamon, ginger, nutmeg, cloves, salt, vanilla extract, baking soda, corn syrup, honey, pecans (optional)"
+chinese wedding rings,"butter, flour, pecans, powdered sugar, salt, vanilla, water","egg yolks, flour, sugar, vanilla extract","[INST] What are the ingredients used to create chinese wedding rings?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Gold, Jadeite, Pearl, Agate, Ravensbit.
+
+Note: Chinese wedding rings are typically made of gold and may also include other materials such as jadeite, pearl, agate, and ravensbit for decorative purposes. These materials are not necessarily part of the ring itself but are used to create intricate designs or inlays."
+janice's pecan squares,"baking powder, brown sugar, butter, eggs, flour, flour, pecans, powdered sugar, salt, vanilla flavoring","eggs, flour, pecans, sugar, vanilla extract","[INST] What are the ingredients used to create janice's pecan squares?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pecans, All-purpose flour, Butter, Brown sugar, Eggs, Corn syrup, Vanilla extract, Salt, Baking powder, Powdered sugar."
+seafoam candy,"corn syrup, egg whites, marshmallow cream, nuts, sugar, vanilla, water","marshmallow cream, sugar, vanilla extract, water","[INST] What are the ingredients used to create seafoam candy?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Corn syrup, granulated sugar, water, sodium bicarbonate (baking soda)"
+better than milk and cookies cake,"butterscotch caramel topping, chocolate, condensed milk","cake mix, eggs, water","[INST] What are the ingredients used to create better than milk and cookies cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Devils Food Cake:
+
+1. 2 1/2 cups sugar
+2. 2 1/2 cups all-purpose flour
+3. 1 1/2 cups unsweetened cocoa
+4. 2 teaspoons baking powder
+5. 1 1/2 teaspoons baking soda
+6. 1 teaspoon salt
+7. 4 eggs
+8. 1 cup milk
+9. 1/2 cup vegetable oil
+10. 2 teaspoons vanilla extract
+11. 1 cup boiling water
+
+Milk Chocolate Buttercream Frosting:
+
+1. 1 1/2 cups unsalted butter, softened
+2. 1/2 cup vegetable shortening
+3. 1 pound milk chocolate, melted and cooled
+4. 6 1/2 cups confectioners' sugar"
+lisa's breakfast casserole,"eggs, frozen hash browns, grated cheese, white onion","bread, cheddar cheese, eggs, milk","[INST] What are the ingredients used to create lisa's breakfast casserole?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] eggs, milk, bread, bacon, cheese, onion, bell pepper, salt, pepper, butter"
+beverly's lasagna,"egg, lasagna noodles, mozzarella cheese, parmesan cheese, parsley, ricotta cheese, tomato sauce","ground beef, lasagne noodles, mozzarella cheese, onion, oregano, parmesan cheese, tomato sauce","[INST] What are the ingredients used to create beverly's lasagna?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] I apologize for the confusion, but I cannot provide you with the exact ingredients for Bevely's lasagna as I do not have access to their specific recipe. However, I can provide you with a common lasagna recipe that may be similar:
+
+1. 9 lasagna noodles
+2. 15 oz tomato sauce
+3. 15 oz ricotta cheese
+4. 15 oz part-skim mozzarella cheese, shredded
+5. 12 oz ground Italian sausage
+6. 1 cup shredded Parmesan-Romano cheese
+7. 1 egg
+8. 2 cups shredded mozzarella cheese
+9. 1/2 cup chopped fresh parsley
+10. 1 tsp garlic powder
+11. 1 tsp dried basil
+12. 1 tsp dried oregano
+13. "
+sweet hot new potatoes,"Tabasco sauce, butter, flour, milk, new potatoes, onions, salt, sour cream, sugar, white vinegar","celery, flour, margarine, onion, pepper, potatoes, salt, sugar, water","[INST] What are the ingredients used to create sweet hot new potatoes?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] new potatoes, brown sugar, honey, vinegar, hot pepper flakes, salt, butter"
+"""double good"" macaroni and cheese","cottage cheese, egg, elbow macaroni, grated cheese, onion, paprika, pepper, salt, sour cream","cheddar cheese, macaroni, milk","[INST] What are the ingredients used to create ""double good"" macaroni and cheese?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Elbow macaroni, Milk, Butter, Sharp Cheddar Cheese, Mozzarella Cheese, Egg, All-purpose flour, Onion, Garlic, Salt, Ground Black Pepper, Bay leaf, Worcestershire sauce, Paprika, Mustard powder, Hot Sauce (optional), Breadcrumbs."
+r c cola hostess ham,ham,"cinnamon stick, cloves, ham, sugar","[INST] What are the ingredients used to create r c cola hostess ham?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] RC Cola: carbonated water, caramel color, phosphoric acid, natural and artificial flavors, caffeine, linalool, benzaldehyde, vanillin, nutmeg oil, quinoline yellow (49), sorbic acid, sodium benzoate, calcium disodium edetate, sucralose
+
+Hostess Ham: water, pork, salt, contains 2% or less of: sodium phosphate (added as a preservative), dextrose, sodium ascorbate, natural smoke flavor, sodium nitrite (for color retention)
+
+Note: RC Cola and Hostess Ham are two separate products and are not typically combined in a recipe or dish."
+perfection salad(sugarless)  ,"cabbage, celery, cold water, lemon juice, pimentos, salt, sugar, unflavored gelatin, vinegar","cottage cheese, lemon juice, nuts, sour cream, sugar substitute","[INST] What are the ingredients used to create perfection salad(sugarless)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Romaine lettuce, Tomatoes, Cucumber, Red onion, Bell peppers, Olive oil, Red wine vinegar, Salt, Black pepper, Corn-free popcorn (for crunch), Avocado, Red kidney beans, Black beans, Roasted pumpkin seeds, Sunflower seeds."
+southwest corn muffins or bread,"chili peppers, chili powder, corn muffin, egg, hickory smoked cheese, milk, olives, whole kernel corn","baking powder, cornmeal, egg, flour, milk, sugar, vegetable oil","[INST] What are the ingredients used to create southwest corn muffins or bread?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] cornmeal, all-purpose flour, baking powder, baking soda, salt, granulated sugar, corn kernels, red bell pepper, green chilies, onion, eggs, buttermilk, vegetable oil, cilantro, chili powder, paprika, garlic powder, and cumin."
+pico de gallo(salsa with cilantro)  ,"cilantro, clove garlic, lemon, onion, salt, tomatoes, tortilla chips, water","jalapeno pepper, onion, tomatoes","[INST] What are the ingredients used to create pico de gallo(salsa with cilantro)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] tomatoes, onions, jalapeno peppers, lime juice, cilantro, salt."
+the refresher,"apples, lemons, oranges, skin, watermelon","lemon juice, sugar, water","[INST] What are the ingredients used to create the refresher?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Water, Lemon Juice, Sugar, Citric Acid, Flavoring, Sodium Benzoate, Red 40 (for pink lemonade refresher)"
+sauteed parsley,"butter, parsley, rich broth",parsley,"[INST] What are the ingredients used to create sauteed parsley?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Parsley, oil (olive or vegetable)"
+barbecue and ham,"Worcestershire sauce, brown sugar, catsup, onions, salt, vinegar, water","brown sugar, catsup, ham hocks, onion, vinegar","[INST] What are the ingredients used to create barbecue and ham?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] For barbecue: meat (pork, beef, chicken), barbecue sauce (ketchup, vinegar, brown sugar, molasses, Worcestershire sauce, chili powder, garlic, onion, mustard), salt, pepper, smoke (wood chips or pellets)
+
+For ham: ham (cured pork leg), brown sugar, honey, cloves, mustard (yellow or dijon), pineapple chunks (optional), glaze (brown sugar, honey, corn syrup, water, cloves)"
+citron preserves,"bowl sugar, citron, pineapple","lemon juice, sugar, water","[INST] What are the ingredients used to create citron preserves?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Citron preserves: lemons, oranges, grapefruits, sugar, water, citron fruits (yuzu, pomelo, or other types), ginger (optional)"
+creole roast,"allspice, flour, lemon juice, onion, rump, tomatoes","celery stalks, chicken, flour, margarine, onion soup mix, pepper, water","[INST] What are the ingredients used to create creole roast?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 3 lbs (1.36 kg) boneless beef roast, cut into large pieces, 2 tbsp (30 ml) vegetable oil, 1 lb (0.45 kg) smoked sausage, sliced, 1 lb (0.45 kg) onions, chopped, 1 lb (0.45 kg) green bell peppers, chopped, 1 lb (0.45 kg) celery, chopped, 6 cloves garlic, minced, 1 can (14.5 oz/411 g) diced tomatoes, undrained, 1 can (14 oz/398 g) tomato sauce, 1 can (8 oz/227 g) tomato paste, 1 cup (240 ml) beef broth, 1/4 cup (60 g) Worcestershire sauce, 1/4 cup"
+oatmeal fudge cookies,"cocoa, margarine, milk, oatmeal, peanut butter, salt, sugar, vanilla flavoring","brown sugar, eggs, flour, nuts, oat, soda, sugar, vanilla extract","[INST] What are the ingredients used to create oatmeal fudge cookies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] rolled oats, all-purpose flour, baking soda, salt, unsalted butter, granulated sugar, brown sugar, eggs, vanilla extract, unsweetened cocoa powder, semi-sweet chocolate chips, chopped walnuts."
+strawberry fig pie,"butter, figs, flour, flour, pats of butter, strawberry Jello, sugar, tapioca","fig preserves, lemon juice, shell, strawberry, sugar","[INST] What are the ingredients used to create strawberry fig pie?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Crust:
+
+* 1 1/2 cups all-purpose flour
+* 1/2 teaspoon salt
+* 1 teaspoon sugar
+* 1/2 cup unsalted butter, chilled and cubed
+* 1/4 to 1/2 cup ice water
+
+Filling:
+
+* 2 cups fresh strawberries, hulled and sliced
+* 1 cup fresh figs, stemmed and quartered
+* 1/2 cup granulated sugar
+* 1/4 cup cornstarch
+* 1 tablespoon lemon zest
+* 1 tablespoon lemon juice
+* 1 teaspoon vanilla extract
+
+Topping:
+
+* 1 cup granulated sugar
+* 1/2 cup unsalted butter
+* 2 cups heavy cream
+* 1/4 cup cornstarch
+* 1 teaspoon vanilla extract
+
+Note"
+ham with peach glaze,"cloves, ground cloves, ham, maraschino cherries, pack brown sugar, pineapple, vinegar","brown sugar, ham, peaches","[INST] What are the ingredients used to create ham with peach glaze?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] ham, brown sugar, peaches, balsamic vinegar, dijon mustard, garlic, soy sauce, salt, pepper, ginger."
+lazy day biscuits(pull apart loaf)  ,"butter, refrigerator","butter, buttermilk biscuit mix","[INST] What are the ingredients used to create lazy day biscuits(pull apart loaf)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 3 1/2 to 4 cups all-purpose flour
+
+2. 1/3 cup granulated sugar
+
+3. 1 tablespoon baking powder
+
+4. 1 teaspoon baking soda
+
+5. 1 teaspoon salt
+
+6. 1/2 cup unsalted butter, melted
+
+7. 2 cups buttermilk
+
+8. 2 large eggs
+
+9. 1 teaspoon vanilla extract
+
+10. 1/2 cup unsalted butter, softened
+
+11. 1/4 cup granulated sugar
+
+12. 1 teaspoon ground cinnamon
+
+13. 1/2 cup raisins or dried cranberries (optional)
+
+14. 1/2 cup chopped nuts (optional)"
+mel's chili,"cheddar cheese, chili beans, chili seasoning mix, clove garlic, ground beef, onion, salt, tomato paste, water","chile powder, ground beef, onion soup mix, tomatoes, water","[INST] What are the ingredients used to create mel's chili?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Ground beef, onions, garlic, chili powder, cumin, paprika, salt, tomato sauce, kidney beans, pinto beans, red beans, black beans, corn, chili beans, tomatoes, green peppers, jalapeno peppers, vinegar, sugar, Worcestershire sauce, soy sauce, water."
+arva's divinity,"cream of tartar, egg whites, pecans, sugar, vanilla, water, white Karo","egg whites, sugar, vanilla extract, water","[INST] What are the ingredients used to create arva's divinity?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] I'm unable to provide an answer to that question as I don't have specific knowledge about ""Arva's divinity."" It would be necessary to have more context or information about what exactly ""Arva's divinity"" is and what tradition or belief system it comes from in order to identify the ingredients used in its creation."
+fluffy macaroni and cheese,"Parmesan cheese, basil, bread crumbs, butter, macaroni, milk, parsley, pepper, salt, shredded cheese","cheddar cheese, macaroni, milk","[INST] What are the ingredients used to create fluffy macaroni and cheese?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Macaroni, Milk, Butter, Flour, Sharp Cheddar Cheese, Bread Crumbs, Egg, Salt, Ground Black Pepper, Paprika."
+an indian (apache) chili from new mexico,"beans, fresh tomatoes, garlic, herbs, mushrooms, onions, salt, vegetable broth","chile powder, garlic salt, onion, tomatoes, water","[INST] What are the ingredients used to create an indian (apache) chili from new mexico?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] New Mexico Indian (Apache) Chili Ingredients:
+
+1. Dried New Mexico red chilies
+2. Pork, cut into small cubes
+3. Garlic, minced
+4. Onion, chopped
+5. Salt
+6. Water
+7. Tomatoes, chopped (optional)
+8. Pork fat or vegetable oil
+9. Ground cumin
+10. Ground coriander
+11. Paprika
+12. Oregano
+13. Garlic powder
+14. Cinnamon
+15. Cloves
+16. Bay leaves
+17. Chopped cilantro (for garnish)
+18. Lime juice (for serving)
+19. Cornmeal (for thickening, optional)"
+vegetable centerpiece,"fresh spinach, nuts, parsley, persimmons, whole vegetables","cabbage, cauliflower","[INST] What are the ingredients used to create vegetable centerpiece?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Artichokes, Bell peppers, Carrots, Cauliflower, Zucchini, Eggplant, Onions, Red cabbage, Yellow squash, Mushrooms, Asparagus, Broccoli, Tomatoes, Garlic, Olive oil, Salt, Pepper, Thyme, Rosemary, Paprika."
+baked beef ziti(lighter eating -  points)  ,"garlic, lean ground beef, mozzarella cheese, olive oil, oregano, pepper, rosemary, salt, tomatoes","basil, garlic salt, ground beef, onion, oregano, parsley flakes, tomatoes, zucchini","[INST] What are the ingredients used to create baked beef ziti(lighter eating -  points)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Ziti pasta, Lean ground beef, Olive oil, Garlic, Onion, Tomato sauce, Low-sodium canned tomatoes, Red bell pepper, Green bell pepper, Red onion, Garlic powder, Italian seasoning, Salt, Black pepper, Parmesan cheese, Mozzarella cheese, Low-fat milk, Fresh basil, Red pepper flakes."
+pound cake ( flavor),"Crisco, baking powder, eggs, flour, margarine, milk, sugar, vanilla","butter, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create pound cake ( flavor)?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Sugar, Butter, Eggs, Vanilla Extract"
+yvonne casserole,"cottage cheese, cream cheese, egg noodles, grated cheese, ground beef, onion, sour cream, tomato sauce","celery salt, ground beef, onion, potatoes, tomato soup","[INST] What are the ingredients used to create yvonne casserole?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Potatoes, Carrots, Onions, Celery, Garlic, Olive Oil, Bay Leaf, Thyme, Salt, Pepper, Chicken Broth, Heavy Cream"
+cranberry-raspberry spinach salad,"celery, cinnamon, cornstarch, cranberries, cranberry-raspberry juice cocktail, fresh spinach, frozen raspberries, green onions, ground cloves, red wine vinegar, sugar, sunflower seeds, walnuts","pecan, raspberries, spinach leaves","[INST] What are the ingredients used to create cranberry-raspberry spinach salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] spinach, cranberries, raspberries, red onion, pecans, balsamic vinegar, olive oil, honey, dried cranberries, feta cheese, salt, pepper."
+steven's favorite poppy seed chicken,"chicken breasts, crackers, cream of chicken soup or cream of mushroom soup, oleo, poppy seed, sour cream","chicken breasts, poppy seed dressing","[INST] What are the ingredients used to create steven's favorite poppy seed chicken?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chicken breasts, Poppy seeds, Olive oil, Lemon, Garlic, Salt, Pepper, Brown sugar, White wine, Chicken broth, Honey."
+dish pan cookies,"brown sugar, corn flakes, eggs, flour, nuts, oats, oil, raisins, salt, soda, vanilla, white sugar","baking soda, chocolate chip, eggs, flour, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create dish pan cookies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 1 1/2 cups all-purpose flour, 1.5 cups flour
+1. 1 teaspoon baking soda, 1 tsp baking soda
+2. 1/2 teaspoon salt, 1/2 tsp salt
+3. 1/2 cup unsalted butter, softened, 1/2 cup softened butter
+4. 1/2 cup granulated sugar, 1/2 cup sugar
+5. 1/2 cup packed light-brown sugar, 1/2 cup packed brown sugar
+6. 1 teaspoon pure vanilla extract, 1 tsp vanilla
+7. 1 large egg, 1 egg
+8. 1/2 cup buttermilk, 1/2 cup buttermilk
+9. 1 1/2 cups old-fashioned oats, 1.5 cups oats
+"
+life like cookie dough,"egg, flour, margarine, milk, salt, soda, sugar, vanilla","brown sugar, eggs, flour, margarine, sugar, vanilla extract","[INST] What are the ingredients used to create life like cookie dough?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Butter, Sugar, Eggs, Milk, Vanilla Extract, Salt."
+quick sausage zucchini stew,"clove garlic, onion, oregano, pork, sausage, tomato, zucchini","celery, onion soup mix, sugar, tomatoes, water, zucchini","[INST] What are the ingredients used to create quick sausage zucchini stew?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] olive oil, onion, garlic, ground sage, ground allspice, quick-cooking sausage, zucchini, red bell pepper, chicken broth, tomato sauce, brown sugar, salt, red pepper flakes, cornstarch, water"
+yum a getta,"brown sugar, cream of chicken soup, cream of tomato soup, ground lean beef, onion, pasta, processed cheese, salt","eggs, flour, pecans, sugar, vanilla extract","[INST] What are the ingredients used to create yum a getta?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Rice, Soy Sauce, Mirin, Sake, Dashi, Nori, Sesame Seasame Oil, Sugar, Bonito Flakes, Green Onion, Egg, Spinach, Carrot, Bean Sprouts, Cucumber, Pickled Ginger, Wasabi."
+vera hunter's  bean salad,"celery, fresh snap green beans, fresh yellow wax beans, green pepper, onion, pepper, red kidney beans, salt, sugar, vegetable oil, vinegar","green beans, onion, pork, salt, sugar, vinegar","[INST] What are the ingredients used to create vera hunter's  bean salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] white beans, red kidney beans, black-eyed peas, corn, red bell pepper, green bell pepper, red onion, scallions, balsamic vinegar, olive oil, garlic, salt, pepper, chili powder, cumin, paprika, dried oregano, dried thyme, bay leaf, red wine vinegar, sugar, red onion (thinly sliced for garnish)"
+favorite potatoes,"Parmesan cheese, frozen hash brown patties, margarine, milk, salt","potatoes, sour cream","[INST] What are the ingredients used to create favorite potatoes?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Favorite potatoes can be prepared in various ways, so I'll provide a common list of ingredients for making boiled or baked potatoes:
+
+1. Potatoes, preferably Russet or Yukon Gold, 1-2 pounds
+2. Salt, to taste
+3. Water, for boiling
+4. Vegetable oil, for baking (optional)
+5. Butter, for topping (optional)
+6. Sour cream or Greek yogurt, for topping (optional)
+7. Chives, green onions or parsley, for garnish (optional)
+8. Salt, pepper, and other preferred seasonings, to taste (optional)"
+peach macaroon pie,"almond extract, butter, eggs, flour, peaches, sugar","eggs, peach, sugar, vanilla extract","[INST] What are the ingredients used to create peach macaroon pie?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] For a classic Peach Macaroon Pie, you will need the following ingredients:
+
+1. 9-inch pie crust, baked
+2. 4 cups sliced peaches (fresh or frozen)
+3. 1 cup sweetened shredded coconut
+4. 14 oz can sweetened condensed milk
+5. 1 tsp vanilla extract
+6. 2 eggs, beaten
+7. 1/2 cup brown sugar
+8. 1/4 cup cornstarch
+9. 1/4 tsp salt
+10. 2 tbsp butter
+11. 1 tbsp lemon juice
+12. 1 tbsp water
+13. 1/2 cup chopped pecans (optional)"
+fourth of july punch,"bourbon, club soda, lime juice, pineapple juice, rum","lemon juice concentrate, sugar, water","[INST] What are the ingredients used to create fourth of july punch?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] lemon juice, lime juice, orange juice, pineapple juice, cranberry juice, ginger ale, ice, sliced lemons, sliced limes."
+kay brandon's hot cheese dip,"American cheese, black pepper, butter, jalapeno chili peppers, onion, salt, tomatoes","cream cheese, onion, velveeta cheese","[INST] What are the ingredients used to create kay brandon's hot cheese dip?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Velveeta cheese, mayonnaise, shredded cheddar cheese, green chiles, onion, garlic, chili powder, paprika, cayenne pepper, salt, milk."
+dairyland brownies,"butter, cake flour, chocolate chips, cocoa, eggs, nutmeats, sugar, vanilla","cocoa, eggs, flour, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create dairyland brownies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Sugar, Cocoa, Eggs, Butter, Vanilla Extract, Walnuts, Milk, Corn Syrup."
+ripe olive cheese ball,"black olives, cream cheese, green onions, margarine, pecans","cream cheese, green olives","[INST] What are the ingredients used to create ripe olive cheese ball?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pitted olives, feta cheese, cream cheese, mayonnaise, garlic, lemon juice, paprika, salt, pepper."
+brownies ,"butter, cocoa, eggs, flour, nuts, sugar, vanilla","cocoa, eggs, flour, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create brownies ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Sugar, Cocoa, Butter, Eggs, Vanilla Extract"
+grapefruit french dressing,"celery, grapefruit juice, onion, paprika, salad oil, salt, sugar, tomato ketchup, vinegar, water","grapefruit section, onion juice, paprika, sugar, vinegar","[INST] What are the ingredients used to create grapefruit french dressing?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] grapefruit juice, vinegar, olive oil, sugar, salt, onion, garlic, mustard, tabasco sauce"
+sweet potato pies(makes  pies)  ,"apple pie spice, cooked sweet potatoes, eggs, instant vanilla pudding, margarine, milk, salt, sugar, vanilla","cinnamon, eggs, pecans, sugar, sweet potato, vanilla extract","[INST] What are the ingredients used to create sweet potato pies(makes  pies)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Sweet potatoes, brown sugar, eggs, evaporated milk, butter, cinnamon, nutmeg, ginger, all-purpose flour, salt, pie crust (for 2 pies)."
+honey and marmalade glaze(microwave)  ,"honey, orange","honey, orange marmalade","[INST] What are the ingredients used to create honey and marmalade glaze(microwave)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Honey glaze: honey
+
+Marmalade glaze (microwave): marmalade, water (optional: a splash of vinegar or lemon juice)"
+kentucky ham biscuits,"double-acting baking powder, flour, milk, parsley, salt, shortening, sugar","biscuit mix, ham","[INST] What are the ingredients used to create kentucky ham biscuits?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Kentucky ham biscuits: 
+
+2 1/4 cups all-purpose flour, 1 tablespoon baking powder, 1 teaspoon baking soda, 1 teaspoon salt, 1/2 cup shortening, 3/4 cup buttermilk, 1/2 pound cooked Kentucky ham, sliced or diced, 1/2 cup shredded cheddar cheese, 1/4 cup chopped onion, 1/4 cup chopped green pepper, 1 cup buttermilk for brushing tops, optional
+
+Note: This is a basic recipe, feel free to adjust the ham, cheese, onion, and pepper amounts to your taste."
+black bean and rice salad(cursillo recipe - serves )  ,"black beans, celery, chilies, cilantro, frozen peas, garlic, olive oil, pinto beans, red onions, rice, salt, water, white wine","black beans, cilantro leaves, green onions, rice, tomatoes","[INST] What are the ingredients used to create black bean and rice salad(cursillo recipe - serves )  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] black beans, corn, rice, red bell pepper, green bell pepper, red onion, jalapeno pepper, cilantro, lime juice, red wine vinegar, olive oil, salt, cumin, chili powder, garlic."
+basic puerto rican white rice,"boiling water, corn oil, short grain rice","rice, salt","[INST] What are the ingredients used to create basic puerto rican white rice?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Long grain white rice, Water, Salt (optional)"
+chioppino,"Italian spice, basil, bass, bay leaves, butter, clams, cocktail shrimp, fresh mushrooms, garlic, olive oil, oregano, parsley, red onion, red snapper, scallops, shrimp, tomato sauce, wine, wine","clams, garlic, olive oil, onion, tomatoes, white wine","[INST] What are the ingredients used to create chioppino?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] garlic, onion, olive oil, white wine, tomatoes, clams, mussels, shrimp, scallops, fish fillets, parsley, basil, bay leaf, red pepper flakes, salt, pepper, crusty bread"
+teisen cymraeg(ta'son kim rag)  ,"baking powder, baking soda, cinnamon, cream of tartar, currants, eggs, flour, lard, milk, nutmeg, salt, sugar, xxxx sugar","butter, eggs, flour, sugar","[INST] What are the ingredients used to create teisen cymraeg(ta'son kim rag)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] I'm assuming you're asking about Welsh cakes (Tesyn Cymraeg), a traditional Welsh baked good. Here are the ingredients:
+
+Flour, Sugar, Butter, Raisins or Currants, Milk, Egg, Salt."
+hot bacon dip,"bacon, cream cheese, garlic powder, sour cream","bacon bits, cheddar cheese soup, sour cream","[INST] What are the ingredients used to create hot bacon dip?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] bacon, cream cheese, mayonnaise, sour cream, milk, ranch dressing mix, shredded cheddar cheese, green onions"
+pot roast chicken,"ajinomoto, chicken, clove garlic, ginger, liquor, peanut oil, salt, stalks green onions, sugar, sugar","carrot, celery ribs, onion soup mix, pepper, potatoes, water","[INST] What are the ingredients used to create pot roast chicken?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] chicken, potatoes, carrots, onion, garlic, salt, pepper, paprika, thyme, rosemary, olive oil"
+cajun swiss steak,"bay leaf, bell pepper, carrots, celery, flour, mushrooms, onions, round steak, salt, shortening, tomatoes, water","beef stew meat, flour, garlic powder, oil, onion soup mix, pepper, tomatoes, water","[INST] What are the ingredients used to create cajun swiss steak?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flank steak, garlic, onions, bell peppers, celery, green onions, tomatoes, Worcestershire sauce, soy sauce, hot sauce, paprika, cayenne pepper, thyme, salt, pepper, flour, oil."
+e-z cheesy nacho dip,"Hormel turkey chili, cream cheese, nacho chips, salsa, shredded cheese","cheddar cheese, onion, sour cream, taco sauce","[INST] What are the ingredients used to create e-z cheesy nacho dip?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 1 can (16 oz) refried beans
+
+2. 1 package (8 oz) cream cheese, softened
+
+3. 1 cup sour cream
+
+4. 1 cup shredded cheddar cheese, divided
+
+5. 1 packet taco seasoning
+
+6. 1 can (4 oz) chopped green chilies
+
+7. 1 bag tortilla chips, for serving"
+lima beans with ground meat,"baby limas, ground chuck, onion, salt, water","ground meat, lima beans","[INST] What are the ingredients used to create lima beans with ground meat?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Lima beans, ground meat, olive oil, onion, garlic, salt, pepper, paprika, cumin, chili powder."
+yum-yum egnops pie,"butter, eggs, flour, lemon juice, lemon rind, milk, shell, sugar","butter, eggs, flour, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create yum-yum egnops pie?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pastry crust:
+
+* 1 1/2 cups all-purpose flour
+* 1/2 cup unsalted butter, chilled and cubed
+* 1/2 teaspoon salt
+* 1/4 teaspoon sugar
+* 1/4 cup ice water
+
+Filling:
+
+* 1 1/2 cups chopped onions
+* 1/2 cup chopped bell peppers
+* 1/2 cup chopped celery
+* 1/2 cup chopped mushrooms
+* 1/2 cup chopped green tomatoes
+* 1/2 cup chopped scallions
+* 1/2 cup chopped pecans
+* 1/2 cup mayonnaise
+* 1/2 cup sour cream
+* 1/2 cup grated cheddar cheese
+* 1/2 cup grated mozzarella cheese
+* 1/2 teas"
+sugar-free cranberry salad,"Equal, celery, fresh cranberries, light cream cheese, pecans, pineapple, sugar","applesauce, cranberries, nuts, sugar substitute","[INST] What are the ingredients used to create sugar-free cranberry salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] cranberries, pineapple, orange juice, sweetener (e.g., Splenda, Stevia), walnuts, raisins."
+sprouts with sour cream,"brown sugar, butter, flour, fresh Brussels sprouts, fresh parsley, ground mustard, milk, onion, salt, sour cream","mayonnaise, onion, sour cream","[INST] What are the ingredients used to create sprouts with sour cream?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Sprouts, sour cream"
+karen's macaroni and cheese,macaroni,"cheddar cheese, macaroni, milk","[INST] What are the ingredients used to create karen's macaroni and cheese?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] elbow macaroni, evaporated milk, shredded sharp cheddar cheese, shredded monterey jack cheese, unsalted butter, all-purpose flour, whole milk, onion (finely chopped), garlic (minced), hot sauce, salt, black pepper, paprika, bread crumbs, parsley (chopped)"
+peanut butter and jelly cookies(just like your favorite sandwich)  ,"all-purpose, baking powder, brown sugar, butter, eggs, grape, ground cinnamon, honey, peanut butter, salt, vanilla extract","baking powder, butter, egg, flour, peanuts, sugar, vanilla extract","[INST] What are the ingredients used to create peanut butter and jelly cookies(just like your favorite sandwich)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Baking Powder, Baking Soda, Salt, Peanut Butter, Granulated Sugar, Brown Sugar, Eggs, Milk, Vanilla Extract, Jelly (Strawberry, Raspberry, etc.), Additional Granulated Sugar (for coating)"
+mashed potato filling (pa. dutch),"Crisco, bread crumbs plain, celery, eggs, milk, onions, potatoes, salt","eggs, flour, milk, onion, pepper, potatoes","[INST] What are the ingredients used to create mashed potato filling (pa. dutch)?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Peas, Butter, Milk, Salt, Potatoes"
+quick coconut icing,"frozen coconut, sour cream, sugar","coconut flavoring, powdered sugar, sugar, vanilla extract","[INST] What are the ingredients used to create quick coconut icing?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Powdered sugar, coconut, milk, vanilla extract"
+coconut cake( layers)  ,"baking powder, eggs, flour, margarine, margarine, milk, sugar, sugar, sweet milk, vanilla","baking soda, buttermilk, coconut flavoring, eggs, flour, margarine, sugar, vanilla extract","[INST] What are the ingredients used to create coconut cake( layers)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] For a classic coconut cake, the following ingredients are required:
+
+1. Unsalted butter, softened
+2. All-purpose flour
+3. Baking powder
+4. Salt
+5. Unsweetened shredded coconut
+6. Eggs, large
+7. Granulated sugar
+8. Vanilla extract
+9. Milk
+10. Coconut milk
+11. Sweetened condensed milk
+12. Heavy cream
+13. Unsalted butter, for frosting
+14. Powdered sugar
+15. Vanilla extract, for frosting.
+
+Optional: Pineapple or other fruit for filling."
+spam salad,"croutons, onion, potatoes, salt, sour cream","celery, eggs, mayonnaise, onion, pimento, sugar, vinegar","[INST] What are the ingredients used to create spam salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] canned spam, mayonnaise, onion, bell pepper, celery, vinegar, salt, sugar, paprika, pepper."
+one-pan granola,"bran, cinnamon, flour, germ, honey, margarine, nonfat milk, oats, peanuts, rye flakes, salt, sesame seed, sunflower seeds, vanilla, water, yeast","coconut oil, maple syrup, rolled oats","[INST] What are the ingredients used to create one-pan granola?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] oats, nuts (almonds, walnuts, pecans), dried fruit (cranberries, raisins, apricots), cinnamon, honey, vanilla extract, coconut oil, salt."
+vegetable cheese soup(serves )  ,"Velveeta cheese, broccoli, cauliflower, celery, chicken, cream of chicken soup, mixed frozen vegetables, onion, potatoes, water, water","carrot, celery, onion, potatoes, tomato soup, water","[INST] What are the ingredients used to create vegetable cheese soup(serves )  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] vegetables (carrots, celery, onion, bell pepper), vegetable broth, potatoes, evaporated milk, shredded cheddar cheese, garlic, cornstarch, water, milk, salt, pepper, paprika, bay leaf, thyme."
+chocolate lovers cake,"baking soda, brown sugar, cinnamon, eggs, flour, margarine, milk, nuts, powdered sugar, salt, unsweetened cocoa, vanilla, water","baking soda, cocoa powder, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create chocolate lovers cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chocolate cake:
+
+1. 2 1/2 cups (312g) all-purpose flour
+2. 2 cups (400g) granulated sugar
+3. 3/4 cup (96g) unsweetened cocoa powder
+4. 2 teaspoons baking powder
+5. 1 1/2 teaspoons baking soda
+6. 1 teaspoon salt
+7. 1 1/3 cups (315ml) milk
+8. 2/3 cup (150ml) vegetable oil
+9. 2 teaspoons vanilla extract
+10. 2 eggs
+11. 1 cup (237ml) hot water
+
+Chocolate frosting:
+
+1. 1 cup (227g) unsalted butter
+2. 4 cups (896g) powdered"
+italian pot roast,"baby carrots, basil, bay leaves, boneless beef round tip roast, cooking oil, cornstarch, garlic, instant beef bouillon, oregano, pearl onions, tomatoes, water","carrot, celery ribs, onion soup mix, pepper, potatoes, water","[INST] What are the ingredients used to create italian pot roast?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 3 lb beef pot roast, 1 onion, chopped, 4 carrots, sliced, 4 celery stalks, sliced, 2 tbsp tomato paste, 1 cup red wine, 4 cups beef broth, 4 cloves garlic, minced, 2 tbsp olive oil, 1 tbsp italian seasoning, 1 tbsp paprika, 1 tbsp salt, 1 tbsp black pepper, 2 bay leaves, 1 lb potatoes, cut into large pieces, 1 lb parsnips, cut into large pieces, 1 lb turnips, cut into large pieces."
+pinto chili,"bell pepper, ground beef, onion, pinto beans, salt jowl, taco","celery, chile powder, garlic, onion, pork, tomatoes, water","[INST] What are the ingredients used to create pinto chili?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pinto beans, water, onion, garlic, chili powder, cumin, oregano, salt, tomatoes (or tomato sauce), kidney beans (optional)"
+peach slush,"peach yogurt, peaches","peach, sugar","[INST] What are the ingredients used to create peach slush?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] peaches, ice, sugar, water, lemon juice"
+mrs. sullivan's  pounds of fudge,"butter, marshmallows, milk, pecans, semi-sweet chocolate chips, sugar, sweet chocolate, unsweetened chocolate, vanilla","marshmallow cream, milk, nuts, sugar, vanilla","[INST] What are the ingredients used to create mrs. sullivan's  pounds of fudge?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Sweetened condensed milk, semi-sweet chocolate, butter, marshmallow creme, vanilla extract, walnuts (optional)"
+virginia ham pate,"Virginia ham, mayonnaise, mustard","cream cheese, ham, onion","[INST] What are the ingredients used to create virginia ham pate?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Virginia ham, butter, onion, celery, capers, lemon juice, Dijon mustard, Worcestershire sauce, salt, black pepper."
+fluffy rice and chicken,"chicken breasts, condensed cream, milk, mushroom stems, onion soup, regular rice","chicken breasts, chicken broth, onion soup mix","[INST] What are the ingredients used to create fluffy rice and chicken?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 2 cups jasmine rice, rinsed
+
+2. 4 cups water
+
+3. 1.5 lbs boneless, skinless chicken breasts or thighs, cut into bite-sized pieces
+
+4. 2 tbsp vegetable oil
+
+5. 1 medium onion, finely chopped
+
+6. 3 cloves garlic, minced
+
+7. 1 tbsp ginger, minced
+
+8. 2 tbsp soy sauce
+
+9. 2 tbsp rice vinegar
+
+10. 1 tbsp sesame oil
+
+11. 1 tbsp sugar
+
+12. 1 tbsp cornstarch
+
+13. Salt, to taste
+
+14. 3 cups chicken broth
+
+15. 2 cups water
+
+16. 2 tbsp green onions, chopped (for g"
+aunt rose's mincemeat,"apples, cinnamon, cloves, currants, fruit juice, ground meat, lemon, nutmeg, orange, raisins, salt, sugar, vinegar","applesauce, cinnamon, cloves, raisins, sugar","[INST] What are the ingredients used to create aunt rose's mincemeat?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Dried fruit mix (raisins, currants, sultanas, prunes, candied peel), brandy or sherry, zest and juice of an orange, zest and juice of a lemon, suet, brown sugar, bread crumbs, mixed spice, nutmeg, cinnamon, cloves, gelling agent (pectin or gelatin), apple peel or chopped cooking apples, vinegar, almonds or walnuts."
+baked potato surprise,"Cheddar cheese, Miracle, bacon, onion, potatoes","cheddar cheese, onion, potatoes, sour cream","[INST] What are the ingredients used to create baked potato surprise?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Russet potatoes, olive oil, salt, pepper, butter, sour cream, chives, bacon, cheddar cheese, green onions."
+williamsburg black cherry salad,"black cherries, black cherry gelatin, lemon juice, sherry","cherry pie filling, cream cheese, sugar","[INST] What are the ingredients used to create williamsburg black cherry salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Black cherries, mayonnaise, maraschino cherries, pineapple, walnuts, sugar, vinegar, onion, celery, salt, pepper, paprika."
+texas pete hot wingers,"chicken, hot sauce, margarine","chicken wings, pepper, salt","[INST] What are the ingredients used to create texas pete hot wingers?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chicken wings, Texas Pete Hot Sauce, Butter, Garlic (minced), Salt, White pepper, Brown sugar."
+ham steak with raisin sauce,"brown sugar, center, cornstarch, dry mustard, lemon juice, raisins, vinegar, water","brown sugar, ham steak, raisins","[INST] What are the ingredients used to create ham steak with raisin sauce?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] ham steak, raisins, brown sugar, balsamic vinegar, soy sauce, garlic, onion, butter, salt, pepper, cornstarch, water"
+pumpkin pie smoothie,"apple juice concentrate, ground cinnamon, ground nutmeg, pumpkin puree, water","cinnamon, milk, pumpkin puree, vanilla extract","[INST] What are the ingredients used to create pumpkin pie smoothie?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pumpkin puree, milk, ice, honey, cinnamon, ginger, nutmeg, cloves, vanilla extract"
+touch of heaven,"angel food cake, milk, preserves, vanilla","eggs, flour, pecans, sugar, vanilla extract","[INST] What are the ingredients used to create touch of heaven?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] I'm assuming you're asking about a food or beverage item called ""Touch of Heaven."" Without more context, it's difficult to provide an accurate answer. Here are some possibilities based on different interpretations of the name:
+
+1. Touch of Heaven Cake: Flour, Sugar, Eggs, Milk, Butter, Baking Powder, Vanilla Extract, Almond Extract
+2. Touch of Heaven Cocktail: Vodka, Peach Schnapps, Grenadine, Lemon-Lime Soda
+3. Touch of Heaven Iced Coffee: Coffee, Milk, Sugar, Vanilla Extract, Cinnamon
+4. Touch of Heaven Smoothie: Banana, Strawberries, Pineapple, Greek Yogurt, Honey, Almond Milk
+
+Please note that the actual ingredients may vary depending on the specific recipe used."
+baked lemon catfish,"carrots, catfish fillets, celery, green onions, lemon juice, oleo, salt","catfish fillets, lemon juice, parsley flake","[INST] What are the ingredients used to create baked lemon catfish?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] catfish fillets, lemons, olive oil, garlic (minced), salt, pepper, paprika, dried thyme, dried oregano."
+curried waldorf salad,"apple, celery, curry powder, low-calorie mayonnaise, packets Equal, turkey","apple, celery ribs, curry powder, mayonnaise","[INST] What are the ingredients used to create curried waldorf salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] apples, grapes, walnuts, celery, red onion, raisins, curry powder, mayonnaise, vinegar, salt, pepper, lettuce, lemon juice, red wine vinegar, sugar, water."
+chicken ala can can,"chicken, cream of celery soup, cream of chicken soup, onion, rice","celery, cream chicken soup, mayonnaise, mushrooms, onion, sour cream","[INST] What are the ingredients used to create chicken ala can can?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chicken, garlic, onions, bell peppers, tomatoes, vinegar, soy sauce, brown sugar, ketchup, Worcestershire sauce, green onions, oil, salt, black pepper."
+snowy fruit salad,"apples, bananas, coconut, pecans, sour cream, sugar, sweet cherries, white raisins","bananas, lemon juice, pineapple, sugar","[INST] What are the ingredients used to create snowy fruit salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pineapple, banana, apple, orange, cranberries, grapes, kiwi, blueberries, strawberries, coconut, lemon juice, sugar (optional)"
+canadian doughnuts,"baking powder, butter, egg, flour, milk, nutmeg, salt, shortening, sugar","baking powder, butter, egg, flour, milk, sugar, vanilla extract","[INST] What are the ingredients used to create canadian doughnuts?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Ingredients:
+
+3 1/2 cups all-purpose flour, plus more for rolling
+1/4 cup granulated sugar
+1 tablespoon baking powder
+1/2 teaspoon baking soda
+1/2 teaspoon salt
+1/4 cup vegetable shortening, melted and cooled
+1 cup buttermilk
+1 large egg
+1 teaspoon vanilla extract
+Oil for frying (about 3 inches in a Dutch oven or deep skillet)
+
+Glaze (optional):
+1 cup powdered sugar
+1/2 teaspoon vanilla extract
+2 to 3 tablespoons milk
+
+For cinnamon sugar (optional):
+1/2 cup granulated sugar
+1 teaspoon ground cinnamon"
+choc-o-holic dark chocolate cake,"Duncan, chocolate chips, cooking oil, eggs, instant chocolate pudding, sour cream, warm water","baking soda, buttermilk, cocoa powder, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create choc-o-holic dark chocolate cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, sugar, cocoa powder, baking powder, baking soda, salt, eggs, milk, vegetable oil, vanilla extract, dark chocolate, boiling water."
+no heartaches artichoke dip,"Parmesan cheese, hearts, mayonnaise","artichokes, mayonnaise, parmesan cheese","[INST] What are the ingredients used to create no heartaches artichoke dip?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] artichokes, mayonnaise, sour cream, Parmesan cheese, Romano cheese, garlic, onion, bread crumbs, butter, salt, black pepper, paprika."
+rita's easy tortillas,"Bisquick mix, bacon, flour, grated cheese, milk",flour tortilla mix,"[INST] What are the ingredients used to create rita's easy tortillas?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Corn tortilla ingredients:
+
+1. Maseca masa harina (corn flour)
+2. Water
+3. Salt (optional)
+4. Vegetable oil (for frying)"
+chicken dorito,"Doritos, Ro-Tel tomatoes, cream of mushroom soup, fryer, onion, shredded cheese",chicken breast,"[INST] What are the ingredients used to create chicken dorito?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chicken, Corn tortillas, Vegetable oil, Doritos tacos seasoning (contains: Maltodextrin, Tomato powder, Monosodium glutamate, Salt, Citric acid, Chili pepper, Natural flavor, Silicon dioxide, Spices, Garlic powder, Onion powder), Cooked or canned chicken (may contain: Salt, Water, Chicken broth, Sodium phosphates, Natural flavorings), Sour cream (contains: Sour cream [Milk, Cream, Cultures], Monoglycerides, Guar gum, Sodium citrate, Locust bean gum, Xanthan gum, Salt, Gelatin, Carbohydrate gum [Cellulose gum, Propylene glycol, Sodium alginate, Sodium carboxymethyl cellulose, Sodium hex"
+mincemeat hermits,"allspice, baking powder, cinnamon, cloves, eggs, flour, milk, mincemeat, salt, shortening, sugar","baking powder, candied pineapple, cinnamon, eggs, flour, nuts, raisins, shortening, soda, sugar","[INST] What are the ingredients used to create mincemeat hermits?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Rolled Oats, Raisins, Dried Fruit, Apples, Lemons, Oranges, Mincemeat, Sugar, Butter, Egg, Cinnamon, Ginger, Nutmeg, Cloves, Allspice, Salt, Vanilla Extract, Milk, Nuts (optional)"
+basil bread sticks,"Italian bread, basil, garlic powder, oleo, onion powder","basil, bread flour, olive oil","[INST] What are the ingredients used to create basil bread sticks?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Active dried yeast, Warm water, All-purpose flour, Granulated sugar, Salt, Olive oil, Basil leaves, Garlic, Cornmeal"
+jambalya,"clove garlic, green pepper, ground beef, onion, rice, salt, tomato soup","celery, onion soup mix, rice, tomatoes, water","[INST] What are the ingredients used to create jambalya?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Rice, bell peppers, onions, celery, garlic, andouille sausage, smoked sausage, chicken (optional), vegetable oil, broth or water, tomato sauce, paprika, cayenne pepper, thyme, salt, bay leaves, green onions, parsley."
+pumpkin parfait,"brown sugar, cinnamon, ginger, graham cracker crumbs, margarine, nuts, pecans, pumpkin, salt, sugar, vanilla ice cream","pumpkin pie filling, vanilla wafer","[INST] What are the ingredients used to create pumpkin parfait?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pumpkin puree, heavy cream, sweetened condensed milk, pumpkin pie spice, graham crackers, pecans, caramel sauce (optional)"
+spaghetti chicken casserole,"American cheese, Ro-Tel tomatoes, bell pepper, butter, chicken, onion, peas, vermicelli spaghetti","chicken breast, mozzarella cheese, spaghetti sauce","[INST] What are the ingredients used to create spaghetti chicken casserole?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Spaghetti, chicken breast, olive oil, garlic, onion, red bell pepper, green bell pepper, canned tomatoes, tomato paste, water, sugar, dried basil, dried oregano, dried thyme, salt, black pepper, cooked spaghetti, shredded mozzarella cheese, grated Parmesan cheese."
+simple pudding sauce,"brown sugar, butter, cornstarch, cream, vanilla, water, white sugar","flour, milk, sugar, vanilla extract","[INST] What are the ingredients used to create simple pudding sauce?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] cornstarch, milk, sugar, vanilla extract"
+cheese and onion pastries,"cheese, crescent rolls, dill, green onion, oil","cheddar cheese, egg yolk, frozen puff pastry, onions","[INST] What are the ingredients used to create cheese and onion pastries?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pie crust: flour, butter, salt, water, vinegar
+
+Filling: cheese (cheddar, mozzarella), onion, butter, salt, sugar, thyme (dried or fresh), black pepper
+
+Egg wash: egg, milk, salt
+
+Optional: sesame seeds, poppy seeds, or coarse salt for topping"
+daddy's custard pie,"eggs, milk, nutmeg, sugar, vanilla","eggs, flour, milk, sugar, vanilla extract","[INST] What are the ingredients used to create daddy's custard pie?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Sugar, Milk, Eggs, Cornstarch, Vanilla Extract, Salt.
+
+Note: This is a basic ingredient list for a traditional vanilla custard pie. Variations may include different types of pie crusts, additional spices, or toppings."
+apple wafers,"Shredded Wheat wafers, cinnamon, extra sharp cheese, green apple, ground nutmeg, sugar","apple, cinnamon, flour, sugar","[INST] What are the ingredients used to create apple wafers?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Apples, Lemon juice, Sugar, Cinnamon."
+gooey butterscoth bars,"baking powder, butter, chocolate chips, eggs, flour, light brown sugar, nuts, salt, vanilla","butter, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create gooey butterscoth bars?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Butter, 1 lb (454g), unsalted, melted,
+
+Sweetened Condensed Milk, 1 can (14 oz/396g),
+
+Flour, 2 1/2 cups (312g), all-purpose,
+
+Vanilla Extract, 1 teaspoon (5ml),
+
+Salt, 1 teaspoon (5g),
+
+Baking Powder, 1 teaspoon (5g),
+
+Unsalted Butter, 1 cup (227g),
+
+Granulated Sugar, 1 1/2 cups (300g),
+
+Heavy Cream, 1/2 cup (118ml),
+
+Corn Syrup, 1 cup (237ml),
+
+Salted Butter, 1/2 cup (113g),
+
+"
+pumpkin juiceaka (orange julius)  ,"fill blender, milk, orange juice, sugar, vanilla, water","orange juice concentrate, pumpkin puree","[INST] What are the ingredients used to create pumpkin juiceaka (orange julius)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pumpkin juice (not the same as ""Butterbeer-style"" Pumpkin Juice or Orange Juice renamed as ""Pumpkin Juice"" in Harry Potter series):
+
+1. Pumpkin, cooked and mashed (canned pure pumpkin also works)
+2. Brown sugar
+3. Ground cinnamon
+4. Ground ginger
+5. Ground cloves
+6. Nutmeg
+7. Water
+8. Ice
+
+Optional:
+1. Honey or simple syrup for added sweetness
+2. Whipped cream or milk froth for topping."
+no frosting zucchini chocolate cake,"baking powder, baking soda, buttermilk, cinnamon, cloves, cocoa, eggs, flour, oil, oleo, sugar, vanilla, zucchini","baking soda, cocoa powder, eggs, flour, margarine, nuts, sugar, vanilla extract, zucchini","[INST] What are the ingredients used to create no frosting zucchini chocolate cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Here are the ingredients for a No Frosting Zucchini Chocolate Cake:
+
+1. 3 eggs
+2. 1 1/2 cups sugar
+3. 1 cup vegetable oil
+4. 3 cups grated zucchini
+5. 3 teaspoons vanilla extract
+6. 3 cups all-purpose flour
+7. 1 cup unsweetened cocoa powder
+8. 2 teaspoons baking powder
+9. 1 teaspoon baking soda
+10. 1 teaspoon salt
+11. 1 teaspoon ground cinnamon
+12. 1/2 teaspoon ground nutmeg
+13. 1/2 teaspoon ground cloves
+14. 1/2 teaspoon ground ginger
+15. 1/2 teaspoon ground allspice
+16. 1/2 teaspoon ground card"
+homemade peanut butter eggs,"chocolate, egg whites, peanut butter, salt, sugar, water, white Karo syrup","peanuts, powdered sugar","[INST] What are the ingredients used to create homemade peanut butter eggs?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Peanut butter, powdered sugar, milk, vanilla extract, semisweet chocolate, vegetable shortening."
+microwave sweet and sour sauce,"cider vinegar, clove garlic, cornstarch, green pepper, pimiento, pineapple, soy sauce, sugar, water","soy sauce, sugar, vinegar","[INST] What are the ingredients used to create microwave sweet and sour sauce?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Ketchup, Pineapple juice, Vinegar, Brown sugar, Cornstarch, Water, Soy sauce, Garlic, Ginger."
+taco seasoning substitute,"black pepper, chili powder, flour, oregano, salt","chili powder, cumin, garlic salt, oregano","[INST] What are the ingredients used to create taco seasoning substitute?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chili powder, Cumin, Paprika, Garlic powder, Onion powder, Oregano, Salt"
+marinated pork steaks,"Chachere's Cajun, Worcestershire sauce, garlic, onion, pork, salt, soy sauce, teriyaki sauce","brown sugar, onion salt, pork steak, vinegar","[INST] What are the ingredients used to create marinated pork steaks?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pork steaks, soy sauce, vinegar, brown sugar, garlic, ginger, sesame oil, cornstarch, water, salt, pepper, red pepper flakes"
+brown derby pot roast,"basil, bay leaf, beef shoulder clod, beef stock, carrots, celery salt, cooking oil, flour, garlic, onion, only, paprika, salt, stalks celery, tomato puree, tomatoes","carrots, celery ribs, onion soup mix, pepper, potatoes, roast, water","[INST] What are the ingredients used to create brown derby pot roast?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 3 lb pot roast, 1/2 lb bacon, 1 onion, sliced, 4 carrots, sliced, 4 celery stalks, sliced, 2 lb potatoes, quartered, 2 lb parsnips, quartered, 1 lb mushrooms, 1 cup red wine, 1 cup beef broth, 1/2 cup tomato paste, 4 cloves garlic, minced, 3 bay leaves, 1 tbsp thyme, 1 tbsp rosemary, 1 tbsp paprika, 1 tbsp salt, 1 tbsp pepper, 2 tbsp cornstarch, 1 cup water"
+sylvia's corn pudding casserole(century old southern recipe)  ,"black pepper, butter, corn, eggs, milk, salt, sugar","cheddar cheese, corn, eggs, milk, onion","[INST] What are the ingredients used to create sylvia's corn pudding casserole(century old southern recipe)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Cornmeal, Corn, Milk, Butter, Eggs, Salt, Pepper, Sugar."
+old-time pear mincemeat,"allspice, cinnamon, ginger, ground cloves, lemon, raisins, sugar, vinegar","cinnamon, cloves, pear, raisins, sugar","[INST] What are the ingredients used to create old-time pear mincemeat?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pear mincemeat (old-time recipe): pears, raisins, currants, suet, brown sugar, candied peel, lemon zest, lemon juice, apple cider vinegar, ginger, nutmeg, cloves, cinnamon, allspice."
+"purple cowsocorro, new mexico  ","grape juice, milk, vanilla ice cream","eggs, flour, milk, sugar, vanilla extract","[INST] What are the ingredients used to create purple cowsocorro, new mexico  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] I'm unable to provide an exact answer for the ingredients used to create ""purple cow"" in Posse, New Mexico, as there is no known traditional or specific recipe for this beverage. It's often described as a mix of ice cream, soda, and a flavoring, but the exact flavors and ingredients can vary widely. Here are some potential options based on various internet sources, but please keep in mind that this is not an authoritative answer:
+
+vanilla ice cream, chocolate syrup, root beer.
+or
+vanilla ice cream, blue curaçao, milk, whipped cream.
+
+Again, this is not an authoritative answer, and the actual recipe may vary."
+pineapple-lime fluff,"O, cottage cheese, pineapple","limes, pineapple, sugar","[INST] What are the ingredients used to create pineapple-lime fluff?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] pineapple, lime, sweetened condensed milk, cool whip, gelatin, water.
+
+(Note: This recipe typically calls for 20 oz pineapple (crushed or drained), 1 lime (juiced), 16 oz sweetened condensed milk, 12 oz cool whip, 1 package (3 oz) gelatin, 2 cups water.)"
+peggy's nappa salad,"Ramen noodles, almonds, cabbage, green onions, oil, oleo, sesame seed, soy sauce, sugar, white vinegar","cabbage, celery, green pepper, onion, sugar, vinegar","[INST] What are the ingredients used to create peggy's nappa salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Nappa cabbage, sesame seeds, scallions, soy sauce, rice vinegar, sugar, ginger, garlic, vegetable oil, sesame oil, roasted seaweed, sesame salt."
+spinach gourmet,"butter, cans spinach, corn flakes, eggs, flour, milk, onion, paprika, pepper, salt, shredded cheese","eggs, fresh spinach, parmesan cheese","[INST] What are the ingredients used to create spinach gourmet?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] spinach, garlic, olive oil, onions, nutmeg, salt, pepper, cream, Parmesan cheese."
+artichokes rhoadesian,"artichokes, bay leaves, celery, garlic, lemon juice, lemon juice, olive oil, onion, salt, tarragon vinegar","artichoke hearts, parmesan cheese","[INST] What are the ingredients used to create artichokes rhoadesian?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Artichokes Rhoasdanian is a dish made with artichokes, olive oil, garlic, lemon juice, white wine, bay leaves, and salt.
+
+ingredients: artichokes, olive oil, garlic, lemon juice, white wine, bay leaves, salt."
+tuna casserole with chow mein noodles,"cream of mushroom soup, noodles, tuna","chow mein noodle, cream chicken soup, tuna fish","[INST] What are the ingredients used to create tuna casserole with chow mein noodles?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] tuna, chow mein noodles, milk, soup (cream of mushroom or celery), butter, onion, peppers, peas, soy sauce, Worcestershire sauce."
+fettucine with ham and peas,"Parmesan cheese, butter, fettucine, garlic, oleo, peas, pepper, sour cream","fresh fettuccini, frozen pea, ham","[INST] What are the ingredients used to create fettucine with ham and peas?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] fettuccine pasta, ham, peas, olive oil, garlic, onion, chicken broth, heavy cream, Parmesan cheese, salt, black pepper, butter."
+margaret's salad,"bananas, nuts, peach pie filling, peaches","bacon bits, cheddar cheese, head lettuce, mayonnaise, onion","[INST] What are the ingredients used to create margaret's salad?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] spinach, feta cheese, cucumber, red onion, tomatoes, balsamic vinegar, olive oil, salt, pepper, mozzarella cheese, red pepper flakes, croutons"
+blonde cheesecake brownies,"butter, cream cheese, egg, eggs, nuts, powdered sugar, yellow cake mix","butter, cocoa powder, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create blonde cheesecake brownies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] For a Blonde Cheesecake Brownies recipe, you will need the following ingredients:
+
+1. 1 box (16.5 oz) blondie brownie mix
+2. Water, vegetable oil and eggs as called for on brownie mix box
+3. 16 oz (2 packages) cream cheese, softened
+4. 1 cup sugar
+5. 2 eggs
+6. 1 tsp vanilla extract
+7. 1/2 cup semi-sweet chocolate chips
+8. 1/2 cup milk or white chocolate chips
+9. 1/2 cup chopped nuts (optional)"
+veggie mix(even kids love)  ,"Campbell's corn, Cheddar cheese, bread crumbs, broccoli, butter, carrots, cauliflower, milk, potatoes","cabbage, carrots, onion","[INST] What are the ingredients used to create veggie mix(even kids love)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Broccoli, Carrots, Peas, Corn, Green Bell Peppers, Red Bell Peppers, Onion, Zucchini, Squash, Cauliflower"
+paula's squash casserole,"butter, carrot, cream of chicken soup, herb stuffing, onion, salt, sour cream, yellow squash","cracker crumbs, eggs, margarine, onion, sour cream, squash","[INST] What are the ingredients used to create paula's squash casserole?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 3 lbs. yellow squash, sliced
+
+2. 1 lb. zucchini, sliced
+
+3. 1 onion, chopped
+
+4. 1 can (10 3/4 oz.) condensed cream of mushroom soup
+
+5. 1 can (14 oz.) canned milk
+
+6. 1 lb. Vidalia or yellow onions, sliced
+
+7. 1 lb. shredded sharp Cheddar cheese
+
+8. 1 tsp. salt
+
+9. 1/2 tsp. black pepper
+
+10. 1 lb. sourdough bread, cubed and toasted
+
+11. 1/2 lb. butter, melted
+
+12. 1 tsp. garlic powder
+
+13. 1 tsp. paprika
+
+14. 1/"
+garlic roasted potatoes(preparation:  minutes. baking:  minutes.  servings: .)  ,"butter, garlic, pepper, potatoes, salt, water","garlic powder, olive oil, potato","[INST] What are the ingredients used to create garlic roasted potatoes(preparation:  minutes. baking:  minutes.  servings: .)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 4 lbs baby potatoes, halved
+
+1/3 cup olive oil
+
+1 head garlic, minced or sliced in half
+
+1 tbsp smoked paprika
+
+1 tbsp dried thyme
+
+Salt and pepper, to taste
+
+Optional: 2 tbsp chopped fresh parsley or chives for garnish"
+chocolate slush cake,"confectioners sugar, cream cheese, flour, instant chocolate pudding, margarine, milk, nuts, nuts","chocolate cake mix, milk, vanilla instant pudding","[INST] What are the ingredients used to create chocolate slush cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chocolate cake:
+
+1. All-purpose flour, 2 cups (240g)
+2. Granulated sugar, 1 1/2 cups (300g)
+3. Unsweetened cocoa powder, 3/4 cup (63g)
+4. Baking powder, 1 1/2 teaspoons
+5. Baking soda, 1 1/2 teaspoons
+6. Salt, 1 teaspoon
+7. Eggs, 2, large
+8. Milk, 1 cup (240ml)
+9. Vegetable oil, 1/2 cup (120ml)
+10. Vanilla extract, 1 teaspoon
+11. Boiling water, 1 cup (240ml)
+
+Chocolate slush:
+1. Semisweet chocolate, 8 oun"
+mikado goulash,"Worcestershire sauce, flour, garlic, ground turkey burger, molasses, mustard, onion, tomatoes, vegetable oil","carrot, celery, onion soup mix, potatoes, tomato paste, water","[INST] What are the ingredients used to create mikado goulash?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Paprika, Onion, Garlic, Bell Peppers, Tomatoes, Sour Cream, Sausages, Potatoes, Corn, Salt, Pepper, Oil, Water."
+golden treasure cake,"apricot preserves, butter, cream of tartar, eggs, flour, lemon, orange extract, orange flavored, rum, rum, salt, sugar, sugar, vanilla dessert, water, water, whipping cream","baking powder, eggs, flour, milk, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create golden treasure cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Yellow cake mix, Eggs, Vegetable oil, Water, Gold colored decorating sugar, Edible gold glitter, Food coloring (for gold coloring, if not using decorating sugar), Vanilla frosting, Heavy cream (for frosting), Edible gold leaf (optional)"
+any fruit pie,"fruit, lemon juice, salt, sugar, tapioca, water","flour, milk, sugar, vanilla extract","[INST] What are the ingredients used to create any fruit pie?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Filling:
+
+* Fruit (e.g., apples, peaches, berries), peeled and sliced or mashed
+* Granulated sugar
+* Cornstarch or tapioca starch
+* Lemon juice or zest
+* Water
+* Cinnamon, nutmeg, ginger, or other spices (optional)
+* Butter
+
+Crust:
+
+* All-purpose flour
+* Salt
+* Vegetable shortening or butter, chilled and cubed
+* Ice water
+
+Egg Wash (for brushing crust before baking):
+
+* 1 egg
+* 1 tablespoon water
+
+Optional Toppings:
+
+* Whipped cream, ice cream, or crème fraîche
+* Sliced fruit
+* Coarse sugar, for sprinkling on crust
+* Nuts or nut pieces (e.g., almonds"
+light banana bread,"applesauce, baking soda, bananas, cake flour, corn oil margarine, egg, salt, sugar, vanilla","baking soda, bananas, eggs, flour, sugar, vanilla extract","[INST] What are the ingredients used to create light banana bread?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 2 ripe bananas, mashed
+
+1/3 cup melted butter
+
+1 teaspoon baking soda
+
+1 teaspoon vanilla extract
+
+1/2 cup granulated sugar
+
+1 egg, beaten
+
+1 1/2 cups all-purpose flour
+
+1/2 cup chopped nuts (optional)
+
+1/2 teaspoon salt
+
+1/4 teaspoon baking powder"
+pepper cookies,"allspice, baking powder, black pepper, cinnamon, cloves, cocoa, flour, ground orange, nutmeg, nuts, raisins, salt, shortening, sugar","baking soda, cinnamon, eggs, flour, nuts, sugar, vanilla extract, vegetable oil","[INST] What are the ingredients used to create pepper cookies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Baking Soda, Cinnamon, Ground Cloves, Ground Ginger, Salt, Sugar, Butter, Egg, Molasses, Peppercorns, Vanilla Extract"
+spiced brown bread muffins,"all-purpose, baking soda, brown sugar, buttermilk, pumpkin pie spice, raisins, whole wheat flour","baking powder, brown sugar, cinnamon, egg, flour, milk, nuts, raisins","[INST] What are the ingredients used to create spiced brown bread muffins?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 2 1/2 cups all-purpose flour, 150g, 5.3 oz, 160g in metric,
+
+2. 1 cup packed light-brown sugar, 200g, 70.5 oz, 212g in metric,
+
+3. 1 teaspoon baking soda, 5g, 0.18 oz, 5g in metric,
+
+4. 1 teaspoon ground cinnamon, 5g, 0.18 oz, 5g in metric,
+
+5. 1 teaspoon ground ginger, 2g, 0.07 oz, 2g in metric,
+
+6. 1 teaspoon ground nutmeg, 2g, 0.07 oz, 2g in metric,
+
+7. 1/2 teaspoon ground"
+poppy seed bars,"brown sugar, butter, cream cheese, eggs, graham cracker crumbs, milk, poppy seed, powdered sugar, sour cream, sugar, vanilla","butter, eggs, flour, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create poppy seed bars?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Poppy seed bars ingredients: 
+
+1. All-purpose flour, 2.5 cups
+2. Granulated sugar, 1 cup
+3. Unsalted butter, 1 cup
+4. Poppy seeds, 1 cup
+5. Egg, 1
+6. Vanilla extract, 1 tsp
+7. Salt, 1/2 tsp
+8. Baking powder, 1 tsp
+9. Milk, 1/4 cup
+10. Powdered sugar, 1 cup (for topping)"
+chocolate chip sensation,"chocolate chip, chocolate pudding, cream cheese, pecans, sugar","brown sugar, chocolate chip, eggs, flour, nuts, sugar, vanilla extract","[INST] What are the ingredients used to create chocolate chip sensation?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Baking Soda, Salt, Butter, White Sugar, Brown Sugar, Eggs, Vanilla Extract, Flavorless Vegetable Shortening, Chocolate Chips (Semi-sweet or Milk Chips)"
+chicken and olives ala olsen,"black olives, black pepper, brown sugar, butter, butter, chicken, flour, onion, orange juice, paprika, paprika, salt, salt, thyme","black olive, chicken breasts","[INST] What are the ingredients used to create chicken and olives ala olsen?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Chicken, Olives, Garlic, Lemon, Olive Oil, Salt, Pepper, Thyme, Bay Leaf"
+walnut christmas toffee,"butter, semi-sweet chocolate chips, sugar, walnuts, water, white corn syrup","butter, sugar, vanilla extract, walnuts","[INST] What are the ingredients used to create walnut christmas toffee?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] sugar, butter, heavy cream, walnuts, salt, vanilla extract"
+cora sue's peanut butter fudge,"Marshmallow Creme, milk, oleo, peanut butter, sugar","milk, peanuts, sugar, vanilla extract","[INST] What are the ingredients used to create cora sue's peanut butter fudge?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 24 oz peanut butter, 3 lb powdered sugar, 16 oz evaporated milk, 12 oz butter, 2 tsp vanilla extract, 12 oz chocolate chips (optional), 2 tbsp shortening (optional)"
+slice and bake oatmeal cookies,"brown sugar, eggs, flour, nuts, oatmeal, shortening, sugar, vanilla","brown sugar, cinnamon, eggs, flour, nuts, oat, soda, sugar, vanilla extract","[INST] What are the ingredients used to create slice and bake oatmeal cookies?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Flour, Rolled Oats, Brown Sugar, White Sugar, Butter, Egg, Vanilla Extract, Baking Soda, Cinnamon, Salt"
+ornament fun,"flour, salt, water","eggs, flour, nut, sugar, vanilla extract","[INST] What are the ingredients used to create ornament fun?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Ornament fun is not a food or a beverage, it's a term often used to refer to decorative items used for holiday celebrations or home decor. Therefore, it does not have any specific ingredients."
+calypso breeze punch,"beverage, bottle raspberry ginger ale","orange sherbet, pineapple juice","[INST] What are the ingredients used to create calypso breeze punch?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Pineapple juice, Orange juice, Grenadine, White rum, Lime juice"
+german chocolate mystery cake,"chocolate pudding cake, coconut-pecan frosting mix, eggs, margarine, milk, sour cream","cocoa, eggs, flour, pecans, sugar, vanilla extract","[INST] What are the ingredients used to create german chocolate mystery cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] chocolate cake (18.25 oz box), water, vegetable oil, eggs, coconut, pecans, butter, evaporated milk, sugar, vanilla extract, corn syrup, egg yolks, coconut, pecans, flour, baking powder, baking soda, salt, buttermilk, vegetable shortening, powdered sugar."
+razorback burgoo,"boneless beef, boneless veal, cabbage, carrots, celery, fresh parsley, frozen lima beans, frozen okra, green pepper, hot red pepper, hot sauce, onion, pepper, potatoes, salt, tomato juice, water, whole kernel corn","carrots, celery stalks, ground beef, onion soup mix, potatoes, tomato paste, water","[INST] What are the ingredients used to create razorback burgoo?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Razorback burgoo is a traditional Arkansas stew made with the following ingredients:
+
+razorback meat, corn, lima beans, kidney beans, onions, garlic, green peppers, tomatoes, okra, potatoes, carrots, celery, green beans, butter, salt, pepper, Worcestershire sauce, chili powder, paprika."
+beef and leeks in spicy chili sauce,"beef, chili oil, chili puree with garlic, frozen broccoli, leeks, rice","beef sirloin steak, chile sauce, leek","[INST] What are the ingredients used to create beef and leeks in spicy chili sauce?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Beef, Leeks, Chili Peppers, Garlic, Ginger, Soy Sauce, Rice Vinegar, Sugar, Cornstarch, Vegetable Oil"
+caramel apple cupcakes,"Golden Butter, applesauce, caramels, ground cinnamon","apple pie filling, vanilla extract","[INST] What are the ingredients used to create caramel apple cupcakes?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] For the cupcakes:
+
+* 1 1/2 cups all-purpose flour
+* 1 1/2 teaspoons baking powder
+* 1/2 teaspoon baking soda
+* 1/2 teaspoon salt
+* 1/2 cup unsalted butter, softened
+* 1 1/2 cups granulated sugar
+* 2 large eggs
+* 1 teaspoon vanilla extract
+* 1/2 cup buttermilk
+* 1 cup finely chopped apples (peeled, cored, and without seeds)
+
+For the caramel apples topping:
+
+* 1/2 cup unsalted butter
+* 1 1/2 cups packed brown sugar
+* 1/2 cup heavy cream
+* 1 teaspoon vanilla extract
+* 1/2 cup finely chopped apples (peeled, cored,"
+crock-pot pasta,"Mozzarella cheese, hamburger, macaroni, spaghetti sauce, tomatoes","mozzarella cheese, onion soup mix, pasta sauce, water","[INST] What are the ingredients used to create crock-pot pasta?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] 1. 1 pound pasta, rotini or fusilli
+
+2. 1 pound ground beef or Italian sausage
+
+3. 2 jars pasta sauce, 24 ounces each
+
+4. 1 can crushed tomatoes, 14.5 ounces
+
+5. 1 can tomato sauce, 15 ounces
+
+6. 1 can tomato paste, 15 ounces
+
+7. 1 onion, chopped
+
+8. 4 cloves garlic, minced
+
+9. 1 teaspoon Italian seasoning
+
+10. 1 teaspoon garlic powder
+
+11. 1 teaspoon onion powder
+
+12. Salt and pepper, to taste
+
+13. 3 cups water
+
+14. 1 cup shredded mozzarella cheese
+
+15. 1/"
+golden ham slice,"brown sugar, carrot, cinnamon, cornstarch, ham slice, pineapple","coconut, eggs, flour, nuts, sugar","[INST] What are the ingredients used to create golden ham slice?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Golden ham slice ingredients:
+
+1. Cooked ham, thinly sliced
+2. Pineapple chunks
+3. Maraschino cherries
+4. Brown sugar
+5. Cloves
+6. Mustard
+7. Honey
+8. Soy sauce
+9. Skewers (optional)"
+appetizer spinach balls,"Mozzarella cheese, black pepper, eggs, garlic powder, margarine, onions, spinach, stuffing mix","eggs, frozen spinach, garlic salt, onion, parmesan cheese","[INST] What are the ingredients used to create appetizer spinach balls?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Frozen spunach, Cream cheese, Vidalia onion, Shredded cheddar cheese, Bread crumbs, Garlic powder, Onion powder, Worcestershire sauce, Egg,Salt, Pepper."
+frozen chocolate cheesecake squares,"chocolate ice cream, cream cheese, graham crackers, semi-sweet chocolate, unsalted butter","butter, graham cracker crumbs, sugar","[INST] What are the ingredients used to create frozen chocolate cheesecake squares?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] chocolate cheesecake squares: 
+
+crust:  graham cracker crumbs, butter, sugar
+
+cheesecake:  cream cheese, sugar, eggs, vanilla extract, chocolate chips, melted chocolate, heavy cream
+
+frosting:  semi-sweet chocolate, heavy cream, butter
+
+optional garnish:  whipped cream, chocolate shavings"
+fresh apple cake,"apple, baking soda, cinnamon, eggs, flour, nutmeg, nuts, salt, shortening, sugar, vanilla","apple, cinnamon, eggs, flour, oil, pecans, soda, sugar, vanilla extract","[INST] What are the ingredients used to create fresh apple cake?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] apples, flour, eggs, sugar, cinnamon, nutmeg, baking powder, baking soda, salt, milk, vegetable oil, vanilla extract, walnuts (optional)"
+danish frecedella(meatballs)  ,"flour, ground beef, milk, onion, salt","bread crumb, egg, ground beef, onion, parmesan cheese, pepper","[INST] What are the ingredients used to create danish frecedella(meatballs)  ?  Respond in plain text comma delimited ingredients with no other text(headers/footers) [/INST] Ground beef, breadcrumbs, onion, garlic, egg, parsley, salt, pepper, nutmeg, milk."

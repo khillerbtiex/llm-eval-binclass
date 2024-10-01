@@ -1,0 +1,8 @@
+train-data-endpoint: hf://datasets/Dahoas/instruct_preference_queries/data/train-00000-of-00001-3ddac6b23e7eb8b9.parquet
+test-data-endpoint: hf://datasets/Dahoas/instruct_preference_queries/data/test-00000-of-00001-9cc771c8da96fc0f.parquet
+
+rw-model-output-dir: bco_trainer
+dialogue-col: dialogue
+chosen-col: instruct_1
+rejected-col: instruct_3
+model-to-train-and-ref: HuggingFaceTB/SmolLM-1.7B
