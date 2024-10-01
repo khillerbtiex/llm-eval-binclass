@@ -1,7 +1,5 @@
 import pandas as pd
 from trl import BCOTrainer, BCOConfig
-
-# Load model directly
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import BitsAndBytesConfig
 from datasets import Dataset
