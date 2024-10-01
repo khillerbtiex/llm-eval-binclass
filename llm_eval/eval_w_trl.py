@@ -72,7 +72,7 @@ def compare_models(evaluation_results):
 
 
 if __name__ == "__main__":
-    open("eval_config.yaml","r") as f:
+    with open("eval_config.yaml", "r") as f:
         config = yaml.safe_load(f)
     base_model_name = "HuggingFaceTB/SmolLM-1.7B"
     adapter_model_name = "bco_trainer"
@@ -84,9 +84,9 @@ if __name__ == "__main__":
 
     # Load data
     df = pd.read_csv(config["eval-data-path"])
-    prompts = df[config['prompt-col']].to_list()
-    responses_model1 = df[config['lmodel-response-col']].to_list()
-    responses_model2 = df[config['rmodel-response-col']].to_list()
+    prompts = df[config["prompt-col"]].to_list()
+    responses_model1 = df[config["lmodel-response-col"]].to_list()
+    responses_model2 = df[config["rmodel-response-col"]].to_list()
 
     # Evaluate
     evaluation_results = evaluate_responses(
