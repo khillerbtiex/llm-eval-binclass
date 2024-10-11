@@ -3,7 +3,7 @@ prompts:
     prompt: "What additional ingredients or flavor profiles can enhance the {menu_item}? Current ingredients: {ingredient_list}. Respond with comma delimited ingredients, no headers, footers, or other text."
 
   expand:
-    prompt: "Generate a modified ingredient list for {menu_item} to enhance its versatility and appeal. Consider variations or substitutions that maintain the essence of the {menu_item} while only slightly altering the existing ingredients. Current ingredients: {ingredient_list}. Provide the new ingredients as a comma-separated list, without any additional text."
+    prompt: "Generate a modified ingredient list for {menu_item} to enhance its versatility and appeal. Add minimal modifications to the current ingredients. Current ingredients: {ingredient_list}. Provide the new ingredients as a comma-separated list, without any additional text."
 
   filter:
     prompt: "What ingredients in the {menu_item} might be unnecessary or could be replaced with better alternatives? Focus on improving reducing expanded inigredients back to a standard {menu_item} recipe. Current ingredients: {ingredient_list}. Respond with comma delimited ingredients, no headers, footers, or other text."

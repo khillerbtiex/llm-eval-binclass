@@ -1,5 +1,6 @@
 import yaml
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import pandas as pd
 
 # Load prompts from YAML file
 with open("prompts.yaml", "r") as file:
@@ -63,20 +64,18 @@ def refine_menu_item(menuitem, ingredients):
 
 # Example usage
 if __name__ == "__main__":
-    menuitem = [
-        "mom's plain sugar cookies",
-        "quick italian supper",
-        "christmas tortilla roll-up",
-        "quiche for one",
-    ]
-    ingredients = [
-        "eggs, flour, powdered sugar, sugar, vanilla extract",
-        "ground beef, mozzarella cheese, mushrooms, onion, parmesan cheese, spaghetti sauce",
-        "cheddar cheese, flour tortilla, green onions, sour cream",
-        "cheddar cheese, egg, flour, milk, mushrooms, onion",
-    ]
+    splits = {
+        "train": "data/train-00000-of-00001-74da805aa0f7f02c.parquet",
+        "test": "data/test-00000-of-00001-b53065eb169d75d2.parquet",
+    }
+    df = pd.read_parquet(
+        "hf://datasets/skadewdl3/recipe-nlg-lite-llama-2/" + splits["train"]
+    )
+    menuitems = df["name"].tolist()
+    ingredients = df["ner"].tolist()
+
     ing_out = {}
-    for m, i in zip(menuitem, ingredients):
+    for m, i in zip(menuitems, ingredients):
         refined_ingredients = refine_menu_item(m, i)
         ing_out[m] = refined_ingredients
 
