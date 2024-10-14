@@ -1,5 +1,11 @@
 # llm-eval-binclass
 
+BERT CLASSIFIER
+2 Scripts
+ - train.py
+ - data_prep_batch.py
+
+TRl-BCO TRAINER
 2 Scripts
  - train.py
  - eval_w_trl.py
