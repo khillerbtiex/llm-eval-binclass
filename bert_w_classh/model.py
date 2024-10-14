@@ -93,7 +93,7 @@ class BertClassifier(torch.nn.Module):
         return self.sigmoid(logits)
 
 
-def freeze_bert_layers(model, unfreeze_last_n_layers=6):
+def freeze_bert_layers(model, unfreeze_last_n_layers=8):
     # Freeze all BERT layers
     for param in model.bert.parameters():
         param.requires_grad = False
@@ -108,7 +108,7 @@ def freeze_bert_layers(model, unfreeze_last_n_layers=6):
 model = BertClassifier()
 freeze_bert_layers(model)
 criterion = torch.nn.BCELoss()
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-5)
+optimizer = torch.optim.Adam(model.parameters(), lr=2e-5)
 import os
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

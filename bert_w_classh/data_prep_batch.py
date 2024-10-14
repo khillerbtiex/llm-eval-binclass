@@ -9,24 +9,29 @@ from transformers import (
 import torch
 import numpy as np
 from datasets import load_dataset
+from tqdm import tqdm
 
 # Load dataset and convert to pandas DataFrame
 ds = load_dataset("openbmb/UltraFeedback")["train"]
 ds = ds.shuffle(seed=42)
 df = ds.to_pandas().sample(frac=0.1).reset_index(drop=True)
 
-
 # Initialize output dictionary
-dout = {
+din = {
     "text_seq": [],
     "helpfulness": [],
     "honesty": [],
     "instruction_following": [],
     "truthfulness": [],
-    "text_seq_score": [],
-    "overall_score": [],  # Initialize this as a list
+    "interactions": {"inst": [], "comp": []},
+    "text_seq_base_score": [],
+    "text_seq_prompt_score": [],
+    "overall_score": [],
+    "fine_score": [],
     "label": [],
 }
+
+
 weights = {
     "helpfulness": 0.2,
     "honesty": 0.1,
@@ -35,18 +40,22 @@ weights = {
     "texts": 0.3,
 }
 
+
+def sigmoid_around_3(x):
+    return 1 / (1 + math.exp(-(x - 3)))
+
+
 # Loop through the DataFrame to gather data
 for i in range(len(df.index)):
     print(f"Completion #{i+1}:")
     for j in range(len(df["completions"].iloc[i])):
-        print(f"\tModel: {j+1}")
         try:
             if "critique" in df["completions"].iloc[i][j]:
                 text_seq = df["completions"].iloc[i][j]["critique"]
             else:
-                text_seq = df["completions"].iloc[i][j]["annotations"][
-                    "instruction_following"
-                ]["Rationale for Rating"]
+                text_seq = df["completions"].iloc[i][j]["annotations"]["helpfulness"][
+                    "Rationale for Rating"
+                ]
 
             # Extract ratings
             truthfulness_rating = int(
@@ -64,48 +73,61 @@ for i in range(len(df.index)):
                 df["completions"].iloc[i][j]["annotations"]["honesty"]["Rating"]
             )
             # Append ratings (as string) to the output dictionary
-            dout["text_seq"].append(text_seq)
-            dout["truthfulness"].append(truthfulness_rating)
-            dout["helpfulness"].append(helpfulness_rating)
-            dout["instruction_following"].append(instruction_following_rating)
-            dout["honesty"].append(honesty_rating)
+            din["text_seq"].append(text_seq)
+            din["truthfulness"].append(truthfulness_rating)
+            din["helpfulness"].append(helpfulness_rating)
+            din["instruction_following"].append(instruction_following_rating)
+            din["honesty"].append(honesty_rating)
+            din["interactions"]["inst"].append(df["instruction"].iloc[i])
+            din["interactions"]["comp"].append(df["completions"].iloc[i][j]["response"])
+
+            din["fine_score"].append(df["completions"].iloc[i][j]["fine-grained_score"])
         except Exception as e:
             print(e)
 
-
+del df, ds
 # Calculate overall score after filtering out "N/A" values
-for i in range(len(dout["text_seq"])):
-    helpfulness = dout["helpfulness"][i]
-    honesty = dout["honesty"][i]
-    instruction_following = dout["instruction_following"][i]
-    truthfulness = dout["truthfulness"][i]
+for i in range(len(din["text_seq"])):
+    helpfulness = din["helpfulness"][i]
+    honesty = din["honesty"][i]
+    instruction_following = din["instruction_following"][i]
+    truthfulness = din["truthfulness"][i]
 
-    log_helpfulness = (
-        np.log(helpfulness + 1e-10) * weights["helpfulness"]
-    )  # Add a small value to avoid log(0)
-    log_honesty = np.log(honesty + 1e-10) * weights["honesty"]
-    log_instruction_following = (
-        np.log(instruction_following + 1e-10) * weights["instruction_following"]
+    din["helpfulness"][i] = np.log(helpfulness)  # Add a small value to avoid log(0)
+    din["honesty"][i] = np.log(honesty) * weights["honesty"]
+    din["instruction_following"][i] = (
+        np.log(instruction_following) * weights["instruction_following"]
     )
-    log_truthfulness = np.log(truthfulness + 1e-10) * weights["truthfulness"]
+    din["truthfulness"][i] = np.log(truthfulness) * weights["truthfulness"]
 
     # Calculate the final score
-    score = log_helpfulness + log_honesty + log_instruction_following + log_truthfulness
+    score = (
+        (din["helpfulness"][i] * (weights["helpfulness"] + weights["texts"]))
+        + din["honesty"][i]
+        + din["instruction_following"][i]
+        + din["truthfulness"][i]
+    )
 
-    dout["overall_score"].append(score)  # Append to overall_score list
+    din["overall_score"].append(score)  # Append to overall_score list
 
 
 hf_model = AutoModelForCausalLM.from_pretrained(
     "mistralai/Mistral-7B-Instruct-v0.2",
     device_map="cuda",
-    torch_dtype="auto",
+    torch_dtype=torch.bfloat16,
+    attn_implementation="flash_attention_2",
     trust_remote_code=True,
 )
+# hf_model.generation_config.cache_implementation = "static"
+# hf_model.forward = torch.compile(
+#     hf_model.forward, mode="reduce-overhead", fullgraph=True
+# )
 
-hf_tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
+hf_tokenizer = AutoTokenizer.from_pretrained(
+    "mistralai/Mistral-7B-Instruct-v0.2", padding_side="left"
+)
 hf_tokenizer.pad_token = hf_tokenizer.unk_token
 hf_tokenizer.pad_token_id = hf_tokenizer.unk_token_id
-hf_tokenizer.padding_side = "left"
 
 
 valid_responses = ["1", "2", "3", "4", "5"]
@@ -140,7 +162,7 @@ def batch_generate(msgs, batch_size=4, num_attempts=3):
         [SingleTokenLogitsProcessor(valid_response_ids)]
     )
 
-    for i in tqdm(range(0, len(msgs), batch_size)):
+    for i in tqdm(range(0, len(msgs), batch_size), smoothing=0.0):
         for tries in range(num_attempts):
             try:
                 batch_msgs = msgs[i : i + batch_size]
@@ -154,12 +176,12 @@ def batch_generate(msgs, batch_size=4, num_attempts=3):
                     (
                         torch.cat(
                             [
-                                inputs,
                                 torch.full(
                                     (1, max_length - inputs.size(1)),
-                                    hf_tokenizer.pad_token_id,
+                                    hf_tokenizer.unk_token_id,
                                     device=inputs.device,
                                 ),
+                                inputs,
                             ],
                             dim=1,
                         )
@@ -170,17 +192,21 @@ def batch_generate(msgs, batch_size=4, num_attempts=3):
                 ]
 
                 stacked_inputs = torch.cat(padded_inputs, dim=0).to("cuda")
+                with torch.nn.attention.sdpa_kernel(
+                    torch.nn.attention.SDPBackend.FLASH_ATTENTION
+                ):
 
-                with torch.no_grad():
-                    outputs = hf_model.generate(
-                        stacked_inputs,
-                        min_new_tokens=1,
-                        max_new_tokens=1,
-                        do_sample=False,
-                        num_return_sequences=1,
-                        logits_processor=logits_processor,
-                        tokenizer=hf_tokenizer,
-                    )
+                    with torch.no_grad():
+                        outputs = hf_model.generate(
+                            stacked_inputs,
+                            min_new_tokens=1,
+                            max_new_tokens=1,
+                            do_sample=False,
+                            num_return_sequences=1,
+                            logits_processor=logits_processor,
+                            tokenizer=hf_tokenizer,
+                            pad_token_id=hf_tokenizer.pad_token_id,
+                        )
 
                 batch_outputs = hf_tokenizer.batch_decode(
                     outputs, skip_special_tokens=True
@@ -197,35 +223,68 @@ def batch_generate(msgs, batch_size=4, num_attempts=3):
     return responses
 
 
-message_out = lambda x: [
+message_base_scores = lambda x: [
     {
         "role": "user",
         "content": f"Rate this feedback as (1,2,3,4,5) as a integer weighted sum of user sentiment, model constructiveness, and model instruction-following: 1 == User thinks poorly of chat and gives many critiques && 5 == User thinks highly of the chat and gives few critiques. Amount of deviation from score 3 should match correlate to user opinion. Respond with a single digit integer, no headers or footers or other text. Rate this Chat Feedback: {x}",
     },
 ]
-from tqdm import tqdm
-import random, math
+message_prompt_scores = lambda x, y: [
+    {
+        "role": "user",
+        "content": f"Rate the quality of this chatbot interaction from 1 to 5. Respond with a single digit integer, no headers or footers or other text. User Message: {x}\n\nChatbot Message: {y}",
+    }
+]
+import random, math, pickle
 
 
-messages = [message_out(x) for x in dout["text_seq"]]
-dout["text_seq_score"] = batch_generate(messages, 16)
+messages_base = [message_base_scores(x) for x in din["text_seq"]]
+
+messages_prompt = [
+    message_prompt_scores(x, y)
+    for x, y in zip(din["interactions"]["inst"], din["interactions"]["comp"])
+]
+din["text_seq_base_score"] = batch_generate(messages_base, 16)
+din["text_seq_prompt_score"] = batch_generate(messages_prompt, 16)
 score_list = []
-for i, score in enumerate(tqdm(dout["overall_score"])):
-    out = dout["text_seq_score"][i]
-    s = np.exp(score + np.log(out * weights["texts"]))
+for i, score in enumerate(tqdm(din["overall_score"])):
+    out = np.log(din["text_seq_base_score"][i]) * weights["texts"]
+    s = np.exp(
+        (din["helpfulness"][i] * weights["helpfulness"])
+        + din["instruction_following"][i]
+        + din["truthfulness"][i]
+        + out
+    )
+    out = np.average(
+        [
+            s,
+            din["overall_score"][i],
+            din["fine_score"][i],
+            din["text_seq_base_score"][i],
+            din["text_seq_prompt_score"][i],
+        ]
+    )
+    out = sigmoid_around_3(out)
     score_list.append(s)
 
 
-def sigmoid(x):
-    return 1 / (1 + math.exp(-x))
-
-
-dout["label"] = [
-    1 if score >= 3 + random.uniform(-0.15, 0.15) else 0 for score in score_list
+din["label"] = [
+    1 if score >= 0.65 + random.uniform(-0.05, 0.05) else 0 for score in score_list
 ]
+
+dout = {
+    "text_seq": din["text_seq"],
+    "helpfulness": din["helpfulness"],
+    "honesty": din["honesty"],
+    "instruction_following": din["instruction_following"],
+    "truthfulness": din["truthfulness"],
+    "overall_score": din["overall_score"],
+    "label": din["label"],
+}
+
 dout_df = pd.DataFrame(dout)
 dout_df.to_csv("output_sample.csv", index=False)
-print(dout_df["text_seq_score"].value_counts())
+print(dout_df["overall_score"].value_counts())
 
 # dout lengths
 print("text_seq: ", len(dout["text_seq"]))
