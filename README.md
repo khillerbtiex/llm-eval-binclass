@@ -1,5 +1,7 @@
 # llm-eval-binclass
 
+An attempt to provide easy qualitative evaluation based on how well the LLM output aligns with preference dataset.
+
 BERT CLASSIFIER
 2 Scripts
  - train.py
